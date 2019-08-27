@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyMenuBar (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyMenuBar (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyMenuBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftyMenuBar: 9065f034c7825cb8913aa7d2afad45c994dc4e0f
+
+PODFILE CHECKSUM: 7a3f70bf836e56f3384dd4dd3e259034f251b505
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,22 @@
+{
+  "name": "SwiftyMenuBar",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftyMenuBar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Jonathan Scala/SwiftyMenuBar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jonathan Scala": "jonathan1234scala@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Jonathan Scala/SwiftyMenuBar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftyMenuBar/Classes/**/*"
+}

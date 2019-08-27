@@ -1,0 +1,6 @@
+framework module Pods_SwiftyMenuBar_Tests {
+  umbrella header "Pods-SwiftyMenuBar_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
