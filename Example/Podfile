@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftyMenuBar_Example' do
+  pod 'SwiftyMenuBar', :path => '../'
+
+  target 'SwiftyMenuBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
