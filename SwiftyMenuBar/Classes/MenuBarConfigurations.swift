@@ -19,4 +19,6 @@ public class MenuBarConfigurations {
     public var scrollPosition: UICollectionView.ScrollPosition = .centeredHorizontally
     public var font: UIFont = UIFont.systemFont(ofSize: 13)
     public var staticSize: Bool = true
+
+    public init() {}
 }
