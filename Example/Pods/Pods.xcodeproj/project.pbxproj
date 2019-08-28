@@ -7,354 +7,270 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		104DB31967BD5FA5ED2FC857BF24E485 /* SwiftyMenuBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40AA7129F53C6412877C4548003ABD28 /* SwiftyMenuBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13D2F557E428D2D9F6F087950438AD16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		40718886AAD94CB5C88C648B5F0C8892 /* Pods-SwiftyMenuBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAE9B0CB140623E5ACC304492F4176C6 /* Pods-SwiftyMenuBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53987E7F62784C6288FB6F51FF8EC2F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		7BDC0E8AC5476B641C7096D4A34B5A90 /* Pods-SwiftyMenuBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68D3B3B69010F799849D4BD76510DAE3 /* Pods-SwiftyMenuBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9689D67B40707E050D178A0310A64121 /* SwiftyMenuBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC47AD2537A4E38F8B31583A082E0A82 /* SwiftyMenuBar-dummy.m */; };
-		AB977B6D2315FF0600B0D01B /* MenuBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB977B6C2315FF0600B0D01B /* MenuBarCell.swift */; };
-		AB977B6F2315FF3000B0D01B /* LayoutAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB977B6E2315FF3000B0D01B /* LayoutAnchors.swift */; };
-		AB977B712315FF3F00B0D01B /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB977B702315FF3F00B0D01B /* MenuBar.swift */; };
-		AB977B732315FF5200B0D01B /* MenuBarConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB977B722315FF5200B0D01B /* MenuBarConfigurations.swift */; };
-		AB977B752315FF5A00B0D01B /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB977B742315FF5900B0D01B /* MenuBarController.swift */; };
-		B14C9951637DDD3CFBD517E1726D2041 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		F2475122FB4B95C302508E5DA1582405 /* Pods-SwiftyMenuBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FCD5CD5CC3E3F57120A1F5C8BF5D77 /* Pods-SwiftyMenuBar_Tests-dummy.m */; };
-		F360DCB21CD3C37693891BACF74196B4 /* Pods-SwiftyMenuBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F61D7F88EC0694E5BE67C85C44497B36 /* Pods-SwiftyMenuBar_Example-dummy.m */; };
+		10B3BF3CB2DACAE518E04785C0FB7A66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1BCBA5CB127873EDB32132F73A9AE9D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		32FE91DE11C6083484C37636C358E88B /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CEC5609F2B897A2C0BD797BDA00A19 /* MenuBarController.swift */; };
+		72A47EAF33124E73D81B694895930A8F /* MenuBarConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60270763588BBCE368B5FC0AEDB60825 /* MenuBarConfigurations.swift */; };
+		7BCB05B07C299EA08E6127C66422E761 /* SwiftyMenuBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0880A46F8DCCA22ED25FEA96A6811175 /* SwiftyMenuBar-dummy.m */; };
+		7C030B28A096654156B5E98C0FFD6276 /* Pods-SwiftyMenuBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BB20DCF1E0F243599F7D0028398481C /* Pods-SwiftyMenuBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95D60F1818D5BC9769A878571BD331BB /* LayoutAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DCF2292C621EA0A098C58681C428FE /* LayoutAnchors.swift */; };
+		97C3C1179B614E402039F3DF4F1EF9B2 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10109C5D8D91F0F0260B25C024FA836B /* MenuBar.swift */; };
+		9FEC9C742BE2C7EF0A00FF1EACE53595 /* MenuBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE1E8F2C26E913C12BA22DD0276B45A /* MenuBarCell.swift */; };
+		ECCC813C0B8B4D0BA2B26D05315B9A2C /* SwiftyMenuBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61084AB87CD13929D1541B24049C69D9 /* SwiftyMenuBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3E9C4EEE92032C1EA69DA054DC96643 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FE8BA503BFB09C3E2DC518C21C9B81F9 /* Pods-SwiftyMenuBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C8921A5E44BA9A9B73CC82204999E4 /* Pods-SwiftyMenuBar_Example-dummy.m */; };
+		FF18F9024B24F90AE690198BB458B3D5 /* Pods-SwiftyMenuBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2DF7D09740A9EEE97994B3AE79C9E0 /* Pods-SwiftyMenuBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF5A4FCE7054E091C294A56DE5F8B4F2 /* Pods-SwiftyMenuBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D964432AFBAA9BCF456E7AE4B345F1 /* Pods-SwiftyMenuBar_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		221980C2CAFC62AA139099CFAE858018 /* PBXContainerItemProxy */ = {
+		8C3ADD732D50FB486231AC9018A86423 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 96A66BD4BF0EC71D43EA1CBDCA1ED107;
+			remoteGlobalIDString = 20EFCC6478FE9D7C213B6179AAB62CAB;
 			remoteInfo = "Pods-SwiftyMenuBar_Example";
 		};
-		B0A7491EA102EFA73CFC6F0083FCFE5D /* PBXContainerItemProxy */ = {
+		B53B020537051C4F09EAF307FB51045A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BEC100D8F7B53603EC2DA787D9A3648C;
+			remoteGlobalIDString = 1238B9DB06D12A06466D349CF61BAED5;
 			remoteInfo = SwiftyMenuBar;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D13A21A9843FF7892491E991014DE66 /* Pods-SwiftyMenuBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyMenuBar_Example-resources.sh"; sourceTree = "<group>"; };
-		0E4C6986AF759604BCC6A94FBA90740D /* Pods-SwiftyMenuBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMenuBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		21F8C416B0F98FCBBF335FC92B4DB192 /* SwiftyMenuBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SwiftyMenuBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2A64A92B65B18E3573F1A4AEDEF472F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2CBA2E8C22D2455B6CB86FCD4122F081 /* Pods_SwiftyMenuBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyMenuBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A4E3A6D6A15795BC403AE1B02CE0123 /* SwiftyMenuBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyMenuBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		40AA7129F53C6412877C4548003ABD28 /* SwiftyMenuBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyMenuBar-umbrella.h"; sourceTree = "<group>"; };
-		55641065A1DE3C0987ED651068C08383 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		574591E2BE4C2F6651F1ABD94FE5AF3B /* Pods-SwiftyMenuBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyMenuBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		58250ED6A348D2EC05254A55EF8BB82A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5BF52F8F51C9D9A5D8A1B0676C0B1715 /* SwiftyMenuBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyMenuBar-prefix.pch"; sourceTree = "<group>"; };
-		68D3B3B69010F799849D4BD76510DAE3 /* Pods-SwiftyMenuBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyMenuBar_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7256099D687CA835A3915D38DF3BD7B9 /* Pods-SwiftyMenuBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyMenuBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		74328A256570F7582C49FE1CC6456DD9 /* Pods-SwiftyMenuBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMenuBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		76B40036B376179A5F04BBB35F219873 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79075D7FB9F832A69785382D6539474C /* Pods_SwiftyMenuBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyMenuBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D548F4981E348323624D46DD6C91D8E /* Pods-SwiftyMenuBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyMenuBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		801880EA6D0A0D3024CE0CE2C24A1307 /* Pods-SwiftyMenuBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyMenuBar_Tests-resources.sh"; sourceTree = "<group>"; };
-		8DC508B764DD92E9ECFB6DB23A57B72D /* Pods-SwiftyMenuBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyMenuBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		9028DDC6E0D6DCF51CB7FD855FD13C5F /* Pods-SwiftyMenuBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMenuBar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9CFDC0D596698B4A6E1328221F0AC1A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A51AC5CBFB4C3AC67F26BC1658A4BB1F /* Pods-SwiftyMenuBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyMenuBar_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AB977B6C2315FF0600B0D01B /* MenuBarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuBarCell.swift; path = SwiftyMenuBar/Classes/MenuBarCell.swift; sourceTree = "<group>"; };
-		AB977B6E2315FF3000B0D01B /* LayoutAnchors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LayoutAnchors.swift; path = SwiftyMenuBar/Classes/LayoutAnchors.swift; sourceTree = "<group>"; };
-		AB977B702315FF3F00B0D01B /* MenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuBar.swift; path = SwiftyMenuBar/Classes/MenuBar.swift; sourceTree = "<group>"; };
-		AB977B722315FF5200B0D01B /* MenuBarConfigurations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuBarConfigurations.swift; path = SwiftyMenuBar/Classes/MenuBarConfigurations.swift; sourceTree = "<group>"; };
-		AB977B742315FF5900B0D01B /* MenuBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuBarController.swift; path = SwiftyMenuBar/Classes/MenuBarController.swift; sourceTree = "<group>"; };
-		B4E93F7CC4B0E353BFFD02533E56D0F9 /* SwiftyMenuBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyMenuBar.modulemap; sourceTree = "<group>"; };
-		B5C0C81945505061B8120B87BC75375E /* Pods-SwiftyMenuBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyMenuBar_Tests.modulemap"; sourceTree = "<group>"; };
-		BAA7F8A34C2772AFFE737766CF6EAD32 /* Pods-SwiftyMenuBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyMenuBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D2D8BF46136A95CA34B295C46D25E0F3 /* SwiftyMenuBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyMenuBar.xcconfig; sourceTree = "<group>"; };
-		D4FCD5CD5CC3E3F57120A1F5C8BF5D77 /* Pods-SwiftyMenuBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyMenuBar_Tests-dummy.m"; sourceTree = "<group>"; };
-		DC28CDE4F061615C09952930C9E18EEA /* Pods-SwiftyMenuBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMenuBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EAC547C55B2A0475D597072E4DC41637 /* Pods-SwiftyMenuBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyMenuBar_Example.modulemap"; sourceTree = "<group>"; };
-		EAE9B0CB140623E5ACC304492F4176C6 /* Pods-SwiftyMenuBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyMenuBar_Example-umbrella.h"; sourceTree = "<group>"; };
-		EC47AD2537A4E38F8B31583A082E0A82 /* SwiftyMenuBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyMenuBar-dummy.m"; sourceTree = "<group>"; };
-		F61D7F88EC0694E5BE67C85C44497B36 /* Pods-SwiftyMenuBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyMenuBar_Example-dummy.m"; sourceTree = "<group>"; };
+		00FEA6C9102D4ECF5E615A2339595D60 /* Pods-SwiftyMenuBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyMenuBar_Tests.modulemap"; sourceTree = "<group>"; };
+		0880A46F8DCCA22ED25FEA96A6811175 /* SwiftyMenuBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyMenuBar-dummy.m"; sourceTree = "<group>"; };
+		0BB20DCF1E0F243599F7D0028398481C /* Pods-SwiftyMenuBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyMenuBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		10109C5D8D91F0F0260B25C024FA836B /* MenuBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuBar.swift; path = SwiftyMenuBar/Classes/MenuBar.swift; sourceTree = "<group>"; };
+		1DBDF27C0902271C9A465E734D9B7232 /* Pods-SwiftyMenuBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyMenuBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1EB52373F761CB261F6239C8DD0A3017 /* Pods-SwiftyMenuBar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyMenuBar_Example-Info.plist"; sourceTree = "<group>"; };
+		1FB6F92E5B1EBD0DF5803B1C59629C7D /* SwiftyMenuBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyMenuBar.xcconfig; sourceTree = "<group>"; };
+		21D964432AFBAA9BCF456E7AE4B345F1 /* Pods-SwiftyMenuBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyMenuBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		536B9064272B8F6D994B7B216BD690F9 /* SwiftyMenuBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftyMenuBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		60270763588BBCE368B5FC0AEDB60825 /* MenuBarConfigurations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuBarConfigurations.swift; path = SwiftyMenuBar/Classes/MenuBarConfigurations.swift; sourceTree = "<group>"; };
+		61084AB87CD13929D1541B24049C69D9 /* SwiftyMenuBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyMenuBar-umbrella.h"; sourceTree = "<group>"; };
+		64287B6B5E3138EA80794F07CEF2F25D /* SwiftyMenuBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyMenuBar-Info.plist"; sourceTree = "<group>"; };
+		72A964BB6EEF66ADF86299AE42A499F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		74CF3A5DD34D0114D3129CE4DCA3B2D3 /* Pods-SwiftyMenuBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyMenuBar_Example.modulemap"; sourceTree = "<group>"; };
+		7B2DF7D09740A9EEE97994B3AE79C9E0 /* Pods-SwiftyMenuBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyMenuBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		85C5B3E47B356E5D98F88F547913AEEE /* Pods_SwiftyMenuBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftyMenuBar_Tests.framework; path = "Pods-SwiftyMenuBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90325ED33EB22C2D2B32C81EC6C2FB8A /* Pods-SwiftyMenuBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyMenuBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		95D35A32B2AD0CF5377627EDFF707E3A /* Pods-SwiftyMenuBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMenuBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B2F5B4ED975523A3B132E990E3D32787 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C8E472670CCAB2AD56247C3286C43FD8 /* Pods-SwiftyMenuBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyMenuBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEE1E8F2C26E913C12BA22DD0276B45A /* MenuBarCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuBarCell.swift; path = SwiftyMenuBar/Classes/MenuBarCell.swift; sourceTree = "<group>"; };
+		D1CEC5609F2B897A2C0BD797BDA00A19 /* MenuBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuBarController.swift; path = SwiftyMenuBar/Classes/MenuBarController.swift; sourceTree = "<group>"; };
+		D32324A43375559B5BC2575D1E320D4F /* Pods-SwiftyMenuBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyMenuBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D390C1547295A7A4FF4758585E80E8FF /* Pods-SwiftyMenuBar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyMenuBar_Tests-Info.plist"; sourceTree = "<group>"; };
+		D3A6C6F90E2C5856B305199998980025 /* SwiftyMenuBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyMenuBar.modulemap; sourceTree = "<group>"; };
+		D853519A18A4FC467261BDE765F3257B /* Pods-SwiftyMenuBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyMenuBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8C8921A5E44BA9A9B73CC82204999E4 /* Pods-SwiftyMenuBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyMenuBar_Example-dummy.m"; sourceTree = "<group>"; };
+		DB6A700C3E8314A2F933F507BB1185A0 /* SwiftyMenuBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyMenuBar-prefix.pch"; sourceTree = "<group>"; };
+		E13CD5E19D8D425D929C4B0CD58E32C7 /* Pods-SwiftyMenuBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMenuBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E20BD398B9373051F3717A62E773D77F /* Pods-SwiftyMenuBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMenuBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2C83BB9A163BFEBC10DB12B01434FF7 /* Pods_SwiftyMenuBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftyMenuBar_Example.framework; path = "Pods-SwiftyMenuBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4DCF2292C621EA0A098C58681C428FE /* LayoutAnchors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutAnchors.swift; path = SwiftyMenuBar/Classes/LayoutAnchors.swift; sourceTree = "<group>"; };
+		EED8A597AD819CCB8970F991C234C268 /* Pods-SwiftyMenuBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMenuBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FAFCD68316F7F66C5CBBC77C8534B422 /* SwiftyMenuBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyMenuBar.framework; path = SwiftyMenuBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5DD5DAF6181B051F7F0EB062BEE212F3 /* Frameworks */ = {
+		14067941F7A28BFB16ECE99504165A23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13D2F557E428D2D9F6F087950438AD16 /* Foundation.framework in Frameworks */,
+				10B3BF3CB2DACAE518E04785C0FB7A66 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E11FFFC1052288EF9686CA20AF49D6C7 /* Frameworks */ = {
+		3D1E0C3CCB0B31B089856942CA2D77F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B14C9951637DDD3CFBD517E1726D2041 /* Foundation.framework in Frameworks */,
+				F3E9C4EEE92032C1EA69DA054DC96643 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB872D63F41360838883B8C01B36A56D /* Frameworks */ = {
+		D410BA805D17C390D47D2AD033B13BB3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53987E7F62784C6288FB6F51FF8EC2F1 /* Foundation.framework in Frameworks */,
+				1BCBA5CB127873EDB32132F73A9AE9D7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23ECE592256FAF6183DCA7475094E57D /* Development Pods */ = {
+		11E7738FD57B68F84A1925405C6D5254 /* Pods-SwiftyMenuBar_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				573FA52675CFC65E9F6B8BBB209D662E /* SwiftyMenuBar */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		573FA52675CFC65E9F6B8BBB209D662E /* SwiftyMenuBar */ = {
-			isa = PBXGroup;
-			children = (
-				5857FCB5E3321373B055758B9573302F /* Pod */,
-				DC1BB7D6AEEDCD65438108CB7A1A7BEE /* Support Files */,
-			);
-			name = SwiftyMenuBar;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		5857FCB5E3321373B055758B9573302F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				AB977B6A2315FCFC00B0D01B /* Models */,
-				AB977B692315FCEC00B0D01B /* Extensions */,
-				AB977B682315FCE100B0D01B /* ViewControllers */,
-				AB977B672315FCDA00B0D01B /* Views */,
-				58250ED6A348D2EC05254A55EF8BB82A /* LICENSE */,
-				2A64A92B65B18E3573F1A4AEDEF472F8 /* README.md */,
-				21F8C416B0F98FCBBF335FC92B4DB192 /* SwiftyMenuBar.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				23ECE592256FAF6183DCA7475094E57D /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				8A9985722EAEE3B596DFE85EAA13C2AC /* Products */,
-				E154C79B364273BF11A9F0A96EDCF9C0 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		8A9985722EAEE3B596DFE85EAA13C2AC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				79075D7FB9F832A69785382D6539474C /* Pods_SwiftyMenuBar_Example.framework */,
-				2CBA2E8C22D2455B6CB86FCD4122F081 /* Pods_SwiftyMenuBar_Tests.framework */,
-				3A4E3A6D6A15795BC403AE1B02CE0123 /* SwiftyMenuBar.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		99C95D8CDD1170CD41624F67C789D89C /* Pods-SwiftyMenuBar_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				55641065A1DE3C0987ED651068C08383 /* Info.plist */,
-				B5C0C81945505061B8120B87BC75375E /* Pods-SwiftyMenuBar_Tests.modulemap */,
-				BAA7F8A34C2772AFFE737766CF6EAD32 /* Pods-SwiftyMenuBar_Tests-acknowledgements.markdown */,
-				7256099D687CA835A3915D38DF3BD7B9 /* Pods-SwiftyMenuBar_Tests-acknowledgements.plist */,
-				D4FCD5CD5CC3E3F57120A1F5C8BF5D77 /* Pods-SwiftyMenuBar_Tests-dummy.m */,
-				8DC508B764DD92E9ECFB6DB23A57B72D /* Pods-SwiftyMenuBar_Tests-frameworks.sh */,
-				801880EA6D0A0D3024CE0CE2C24A1307 /* Pods-SwiftyMenuBar_Tests-resources.sh */,
-				68D3B3B69010F799849D4BD76510DAE3 /* Pods-SwiftyMenuBar_Tests-umbrella.h */,
-				DC28CDE4F061615C09952930C9E18EEA /* Pods-SwiftyMenuBar_Tests.debug.xcconfig */,
-				74328A256570F7582C49FE1CC6456DD9 /* Pods-SwiftyMenuBar_Tests.release.xcconfig */,
+				00FEA6C9102D4ECF5E615A2339595D60 /* Pods-SwiftyMenuBar_Tests.modulemap */,
+				D853519A18A4FC467261BDE765F3257B /* Pods-SwiftyMenuBar_Tests-acknowledgements.markdown */,
+				C8E472670CCAB2AD56247C3286C43FD8 /* Pods-SwiftyMenuBar_Tests-acknowledgements.plist */,
+				21D964432AFBAA9BCF456E7AE4B345F1 /* Pods-SwiftyMenuBar_Tests-dummy.m */,
+				D390C1547295A7A4FF4758585E80E8FF /* Pods-SwiftyMenuBar_Tests-Info.plist */,
+				0BB20DCF1E0F243599F7D0028398481C /* Pods-SwiftyMenuBar_Tests-umbrella.h */,
+				E20BD398B9373051F3717A62E773D77F /* Pods-SwiftyMenuBar_Tests.debug.xcconfig */,
+				E13CD5E19D8D425D929C4B0CD58E32C7 /* Pods-SwiftyMenuBar_Tests.release.xcconfig */,
 			);
 			name = "Pods-SwiftyMenuBar_Tests";
 			path = "Target Support Files/Pods-SwiftyMenuBar_Tests";
 			sourceTree = "<group>";
 		};
-		AB977B672315FCDA00B0D01B /* Views */ = {
+		261E3B6F7F0A16256A54E96EC55D2A9D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				AB977B702315FF3F00B0D01B /* MenuBar.swift */,
-				AB977B6B2315FD2400B0D01B /* CollectionViewCells */,
+				B2F5B4ED975523A3B132E990E3D32787 /* LICENSE */,
+				72A964BB6EEF66ADF86299AE42A499F2 /* README.md */,
+				536B9064272B8F6D994B7B216BD690F9 /* SwiftyMenuBar.podspec */,
 			);
-			name = Views;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		AB977B682315FCE100B0D01B /* ViewControllers */ = {
+		4261E567B7692DC5D9EF0D5C6F6F68AD /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AB977B742315FF5900B0D01B /* MenuBarController.swift */,
+				8E7BFE4E1311488E45ACA06D8CA5FDD7 /* Pods-SwiftyMenuBar_Example */,
+				11E7738FD57B68F84A1925405C6D5254 /* Pods-SwiftyMenuBar_Tests */,
 			);
-			name = ViewControllers;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AB977B692315FCEC00B0D01B /* Extensions */ = {
+		6B2543D0A5D4A57A1ACD2D0FE9126E4A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AB977B6E2315FF3000B0D01B /* LayoutAnchors.swift */,
-			);
-			name = Extensions;
-			sourceTree = "<group>";
-		};
-		AB977B6A2315FCFC00B0D01B /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				AB977B722315FF5200B0D01B /* MenuBarConfigurations.swift */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		AB977B6B2315FD2400B0D01B /* CollectionViewCells */ = {
-			isa = PBXGroup;
-			children = (
-				AB977B6C2315FF0600B0D01B /* MenuBarCell.swift */,
-			);
-			name = CollectionViewCells;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DC1BB7D6AEEDCD65438108CB7A1A7BEE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9CFDC0D596698B4A6E1328221F0AC1A3 /* Info.plist */,
-				B4E93F7CC4B0E353BFFD02533E56D0F9 /* SwiftyMenuBar.modulemap */,
-				D2D8BF46136A95CA34B295C46D25E0F3 /* SwiftyMenuBar.xcconfig */,
-				EC47AD2537A4E38F8B31583A082E0A82 /* SwiftyMenuBar-dummy.m */,
-				5BF52F8F51C9D9A5D8A1B0676C0B1715 /* SwiftyMenuBar-prefix.pch */,
-				40AA7129F53C6412877C4548003ABD28 /* SwiftyMenuBar-umbrella.h */,
+				D3A6C6F90E2C5856B305199998980025 /* SwiftyMenuBar.modulemap */,
+				1FB6F92E5B1EBD0DF5803B1C59629C7D /* SwiftyMenuBar.xcconfig */,
+				0880A46F8DCCA22ED25FEA96A6811175 /* SwiftyMenuBar-dummy.m */,
+				64287B6B5E3138EA80794F07CEF2F25D /* SwiftyMenuBar-Info.plist */,
+				DB6A700C3E8314A2F933F507BB1185A0 /* SwiftyMenuBar-prefix.pch */,
+				61084AB87CD13929D1541B24049C69D9 /* SwiftyMenuBar-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SwiftyMenuBar";
 			sourceTree = "<group>";
 		};
-		E02BC692AD31514C42065336ECDD433D /* Pods-SwiftyMenuBar_Example */ = {
+		85D963FFAA0FD76D5D6AE6DB23A3FCBD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				76B40036B376179A5F04BBB35F219873 /* Info.plist */,
-				EAC547C55B2A0475D597072E4DC41637 /* Pods-SwiftyMenuBar_Example.modulemap */,
-				574591E2BE4C2F6651F1ABD94FE5AF3B /* Pods-SwiftyMenuBar_Example-acknowledgements.markdown */,
-				7D548F4981E348323624D46DD6C91D8E /* Pods-SwiftyMenuBar_Example-acknowledgements.plist */,
-				F61D7F88EC0694E5BE67C85C44497B36 /* Pods-SwiftyMenuBar_Example-dummy.m */,
-				A51AC5CBFB4C3AC67F26BC1658A4BB1F /* Pods-SwiftyMenuBar_Example-frameworks.sh */,
-				0D13A21A9843FF7892491E991014DE66 /* Pods-SwiftyMenuBar_Example-resources.sh */,
-				EAE9B0CB140623E5ACC304492F4176C6 /* Pods-SwiftyMenuBar_Example-umbrella.h */,
-				0E4C6986AF759604BCC6A94FBA90740D /* Pods-SwiftyMenuBar_Example.debug.xcconfig */,
-				9028DDC6E0D6DCF51CB7FD855FD13C5F /* Pods-SwiftyMenuBar_Example.release.xcconfig */,
+				E2C83BB9A163BFEBC10DB12B01434FF7 /* Pods_SwiftyMenuBar_Example.framework */,
+				85C5B3E47B356E5D98F88F547913AEEE /* Pods_SwiftyMenuBar_Tests.framework */,
+				FAFCD68316F7F66C5CBBC77C8534B422 /* SwiftyMenuBar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E7BFE4E1311488E45ACA06D8CA5FDD7 /* Pods-SwiftyMenuBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				74CF3A5DD34D0114D3129CE4DCA3B2D3 /* Pods-SwiftyMenuBar_Example.modulemap */,
+				90325ED33EB22C2D2B32C81EC6C2FB8A /* Pods-SwiftyMenuBar_Example-acknowledgements.markdown */,
+				1DBDF27C0902271C9A465E734D9B7232 /* Pods-SwiftyMenuBar_Example-acknowledgements.plist */,
+				D8C8921A5E44BA9A9B73CC82204999E4 /* Pods-SwiftyMenuBar_Example-dummy.m */,
+				D32324A43375559B5BC2575D1E320D4F /* Pods-SwiftyMenuBar_Example-frameworks.sh */,
+				1EB52373F761CB261F6239C8DD0A3017 /* Pods-SwiftyMenuBar_Example-Info.plist */,
+				7B2DF7D09740A9EEE97994B3AE79C9E0 /* Pods-SwiftyMenuBar_Example-umbrella.h */,
+				95D35A32B2AD0CF5377627EDFF707E3A /* Pods-SwiftyMenuBar_Example.debug.xcconfig */,
+				EED8A597AD819CCB8970F991C234C268 /* Pods-SwiftyMenuBar_Example.release.xcconfig */,
 			);
 			name = "Pods-SwiftyMenuBar_Example";
 			path = "Target Support Files/Pods-SwiftyMenuBar_Example";
 			sourceTree = "<group>";
 		};
-		E154C79B364273BF11A9F0A96EDCF9C0 /* Targets Support Files */ = {
+		A5E95F7ED8BC442BEEF369B5D5EEE40D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E02BC692AD31514C42065336ECDD433D /* Pods-SwiftyMenuBar_Example */,
-				99C95D8CDD1170CD41624F67C789D89C /* Pods-SwiftyMenuBar_Tests */,
+				CE60297685E437BAFDBCDE569BEEA50B /* SwiftyMenuBar */,
 			);
-			name = "Targets Support Files";
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE60297685E437BAFDBCDE569BEEA50B /* SwiftyMenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				E4DCF2292C621EA0A098C58681C428FE /* LayoutAnchors.swift */,
+				10109C5D8D91F0F0260B25C024FA836B /* MenuBar.swift */,
+				CEE1E8F2C26E913C12BA22DD0276B45A /* MenuBarCell.swift */,
+				60270763588BBCE368B5FC0AEDB60825 /* MenuBarConfigurations.swift */,
+				D1CEC5609F2B897A2C0BD797BDA00A19 /* MenuBarController.swift */,
+				261E3B6F7F0A16256A54E96EC55D2A9D /* Pod */,
+				6B2543D0A5D4A57A1ACD2D0FE9126E4A /* Support Files */,
+			);
+			name = SwiftyMenuBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A5E95F7ED8BC442BEEF369B5D5EEE40D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				85D963FFAA0FD76D5D6AE6DB23A3FCBD /* Products */,
+				4261E567B7692DC5D9EF0D5C6F6F68AD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1A4A7F2A4DCCD2446892FBEFE7D91630 /* Headers */ = {
+		1D2523185D9D1C10E3062D5EA7C7DC27 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BDC0E8AC5476B641C7096D4A34B5A90 /* Pods-SwiftyMenuBar_Tests-umbrella.h in Headers */,
+				FF18F9024B24F90AE690198BB458B3D5 /* Pods-SwiftyMenuBar_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65A597EE65D7132085D9408A2F0AF74B /* Headers */ = {
+		6937F95CC6F7E2D84F7ACB590993D97B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40718886AAD94CB5C88C648B5F0C8892 /* Pods-SwiftyMenuBar_Example-umbrella.h in Headers */,
+				7C030B28A096654156B5E98C0FFD6276 /* Pods-SwiftyMenuBar_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7F1DBDF2ECA5E7D947DA7E753B8D835 /* Headers */ = {
+		C669B8382CFBDA1FBD1D55DFFE2F608B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				104DB31967BD5FA5ED2FC857BF24E485 /* SwiftyMenuBar-umbrella.h in Headers */,
+				ECCC813C0B8B4D0BA2B26D05315B9A2C /* SwiftyMenuBar-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		96A66BD4BF0EC71D43EA1CBDCA1ED107 /* Pods-SwiftyMenuBar_Example */ = {
+		1238B9DB06D12A06466D349CF61BAED5 /* SwiftyMenuBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79314AD77AD6291F1E39686132C5AD20 /* Build configuration list for PBXNativeTarget "Pods-SwiftyMenuBar_Example" */;
+			buildConfigurationList = 8E236812A0D62E13B5EE364B2AA8F3D7 /* Build configuration list for PBXNativeTarget "SwiftyMenuBar" */;
 			buildPhases = (
-				65A597EE65D7132085D9408A2F0AF74B /* Headers */,
-				2AFC7034D290EC98DC213E473A63CF5F /* Sources */,
-				EB872D63F41360838883B8C01B36A56D /* Frameworks */,
-				C24D1BF7B01FECCF32FCC69B7BE66087 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				63EFC74F0446EDE72338A0BC6EBFB87E /* PBXTargetDependency */,
-			);
-			name = "Pods-SwiftyMenuBar_Example";
-			productName = "Pods-SwiftyMenuBar_Example";
-			productReference = 79075D7FB9F832A69785382D6539474C /* Pods_SwiftyMenuBar_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A01F26AB6D63696B2A5BC372168DC9E2 /* Pods-SwiftyMenuBar_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B8556AD03EC7797A91869BEDDBE8E8A3 /* Build configuration list for PBXNativeTarget "Pods-SwiftyMenuBar_Tests" */;
-			buildPhases = (
-				1A4A7F2A4DCCD2446892FBEFE7D91630 /* Headers */,
-				0237B043A3AD1A0BE0518A0628585D0D /* Sources */,
-				E11FFFC1052288EF9686CA20AF49D6C7 /* Frameworks */,
-				179F3C1651B0BF6FBDFD9C4EF4892501 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E30FEC855C6C4C2F6078AE57C9F97512 /* PBXTargetDependency */,
-			);
-			name = "Pods-SwiftyMenuBar_Tests";
-			productName = "Pods-SwiftyMenuBar_Tests";
-			productReference = 2CBA2E8C22D2455B6CB86FCD4122F081 /* Pods_SwiftyMenuBar_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BEC100D8F7B53603EC2DA787D9A3648C /* SwiftyMenuBar */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A2D97BC522E26A31B22BD1F3812B920F /* Build configuration list for PBXNativeTarget "SwiftyMenuBar" */;
-			buildPhases = (
-				D7F1DBDF2ECA5E7D947DA7E753B8D835 /* Headers */,
-				341900ED6027029C7BE1B73934DA0FC7 /* Sources */,
-				5DD5DAF6181B051F7F0EB062BEE212F3 /* Frameworks */,
-				A4EE30DA541407622D7E843816BA03E7 /* Resources */,
+				C669B8382CFBDA1FBD1D55DFFE2F608B /* Headers */,
+				EC4E3DCFB3CEB511C28931B162390705 /* Sources */,
+				3D1E0C3CCB0B31B089856942CA2D77F8 /* Frameworks */,
+				640F77C7B1B9ADB0E70E18886F84CB4E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -362,59 +278,91 @@
 			);
 			name = SwiftyMenuBar;
 			productName = SwiftyMenuBar;
-			productReference = 3A4E3A6D6A15795BC403AE1B02CE0123 /* SwiftyMenuBar.framework */;
+			productReference = FAFCD68316F7F66C5CBBC77C8534B422 /* SwiftyMenuBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		20EFCC6478FE9D7C213B6179AAB62CAB /* Pods-SwiftyMenuBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564D9200F3DD9BE02276BA77699C7C04 /* Build configuration list for PBXNativeTarget "Pods-SwiftyMenuBar_Example" */;
+			buildPhases = (
+				1D2523185D9D1C10E3062D5EA7C7DC27 /* Headers */,
+				9E221A77A2C086A9FF28A243B2ABFA22 /* Sources */,
+				D410BA805D17C390D47D2AD033B13BB3 /* Frameworks */,
+				51AAEB8C5D6C1AEB0DFA8B69F172FA05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABFE0D3D7367522627B96FB2C4FCF1CD /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftyMenuBar_Example";
+			productName = "Pods-SwiftyMenuBar_Example";
+			productReference = E2C83BB9A163BFEBC10DB12B01434FF7 /* Pods_SwiftyMenuBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		33866F7B7F789241C1063B1068CCA857 /* Pods-SwiftyMenuBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F85E286E2014C81AEC68A494F0D197 /* Build configuration list for PBXNativeTarget "Pods-SwiftyMenuBar_Tests" */;
+			buildPhases = (
+				6937F95CC6F7E2D84F7ACB590993D97B /* Headers */,
+				4945D63C4744C9B5D95FED5606997A60 /* Sources */,
+				14067941F7A28BFB16ECE99504165A23 /* Frameworks */,
+				F52563DCA421223A52AE4409F4B48B9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				161A99F7D7492A785CA2173E2A393A79 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftyMenuBar_Tests";
+			productName = "Pods-SwiftyMenuBar_Tests";
+			productReference = 85C5B3E47B356E5D98F88F547913AEEE /* Pods_SwiftyMenuBar_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					96A66BD4BF0EC71D43EA1CBDCA1ED107 = {
-						LastSwiftMigration = 1030;
-					};
-				};
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 8A9985722EAEE3B596DFE85EAA13C2AC /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 85D963FFAA0FD76D5D6AE6DB23A3FCBD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				96A66BD4BF0EC71D43EA1CBDCA1ED107 /* Pods-SwiftyMenuBar_Example */,
-				A01F26AB6D63696B2A5BC372168DC9E2 /* Pods-SwiftyMenuBar_Tests */,
-				BEC100D8F7B53603EC2DA787D9A3648C /* SwiftyMenuBar */,
+				20EFCC6478FE9D7C213B6179AAB62CAB /* Pods-SwiftyMenuBar_Example */,
+				33866F7B7F789241C1063B1068CCA857 /* Pods-SwiftyMenuBar_Tests */,
+				1238B9DB06D12A06466D349CF61BAED5 /* SwiftyMenuBar */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		179F3C1651B0BF6FBDFD9C4EF4892501 /* Resources */ = {
+		51AAEB8C5D6C1AEB0DFA8B69F172FA05 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4EE30DA541407622D7E843816BA03E7 /* Resources */ = {
+		640F77C7B1B9ADB0E70E18886F84CB4E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C24D1BF7B01FECCF32FCC69B7BE66087 /* Resources */ = {
+		F52563DCA421223A52AE4409F4B48B9F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -424,160 +372,54 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0237B043A3AD1A0BE0518A0628585D0D /* Sources */ = {
+		4945D63C4744C9B5D95FED5606997A60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2475122FB4B95C302508E5DA1582405 /* Pods-SwiftyMenuBar_Tests-dummy.m in Sources */,
+				FF5A4FCE7054E091C294A56DE5F8B4F2 /* Pods-SwiftyMenuBar_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AFC7034D290EC98DC213E473A63CF5F /* Sources */ = {
+		9E221A77A2C086A9FF28A243B2ABFA22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB977B6D2315FF0600B0D01B /* MenuBarCell.swift in Sources */,
-				AB977B6F2315FF3000B0D01B /* LayoutAnchors.swift in Sources */,
-				AB977B712315FF3F00B0D01B /* MenuBar.swift in Sources */,
-				F360DCB21CD3C37693891BACF74196B4 /* Pods-SwiftyMenuBar_Example-dummy.m in Sources */,
-				AB977B752315FF5A00B0D01B /* MenuBarController.swift in Sources */,
-				AB977B732315FF5200B0D01B /* MenuBarConfigurations.swift in Sources */,
+				FE8BA503BFB09C3E2DC518C21C9B81F9 /* Pods-SwiftyMenuBar_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		341900ED6027029C7BE1B73934DA0FC7 /* Sources */ = {
+		EC4E3DCFB3CEB511C28931B162390705 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9689D67B40707E050D178A0310A64121 /* SwiftyMenuBar-dummy.m in Sources */,
+				95D60F1818D5BC9769A878571BD331BB /* LayoutAnchors.swift in Sources */,
+				97C3C1179B614E402039F3DF4F1EF9B2 /* MenuBar.swift in Sources */,
+				9FEC9C742BE2C7EF0A00FF1EACE53595 /* MenuBarCell.swift in Sources */,
+				72A47EAF33124E73D81B694895930A8F /* MenuBarConfigurations.swift in Sources */,
+				32FE91DE11C6083484C37636C358E88B /* MenuBarController.swift in Sources */,
+				7BCB05B07C299EA08E6127C66422E761 /* SwiftyMenuBar-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		63EFC74F0446EDE72338A0BC6EBFB87E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyMenuBar;
-			target = BEC100D8F7B53603EC2DA787D9A3648C /* SwiftyMenuBar */;
-			targetProxy = B0A7491EA102EFA73CFC6F0083FCFE5D /* PBXContainerItemProxy */;
-		};
-		E30FEC855C6C4C2F6078AE57C9F97512 /* PBXTargetDependency */ = {
+		161A99F7D7492A785CA2173E2A393A79 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SwiftyMenuBar_Example";
-			target = 96A66BD4BF0EC71D43EA1CBDCA1ED107 /* Pods-SwiftyMenuBar_Example */;
-			targetProxy = 221980C2CAFC62AA139099CFAE858018 /* PBXContainerItemProxy */;
+			target = 20EFCC6478FE9D7C213B6179AAB62CAB /* Pods-SwiftyMenuBar_Example */;
+			targetProxy = 8C3ADD732D50FB486231AC9018A86423 /* PBXContainerItemProxy */;
+		};
+		ABFE0D3D7367522627B96FB2C4FCF1CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyMenuBar;
+			target = 1238B9DB06D12A06466D349CF61BAED5 /* SwiftyMenuBar */;
+			targetProxy = B53B020537051C4F09EAF307FB51045A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2F5D9CCEF1A923C34ED27EED300191A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E4C6986AF759604BCC6A94FBA90740D /* Pods-SwiftyMenuBar_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyMenuBar_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyMenuBar_Example/Pods-SwiftyMenuBar_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3D4BB2A2660425C2F7D3F9B6A50D9169 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2D8BF46136A95CA34B295C46D25E0F3 /* SwiftyMenuBar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyMenuBar/SwiftyMenuBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyMenuBar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyMenuBar/SwiftyMenuBar.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyMenuBar;
-				PRODUCT_NAME = SwiftyMenuBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		53B5DCCDFFAB2A2EE3B3632C2F57F47B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9028DDC6E0D6DCF51CB7FD855FD13C5F /* Pods-SwiftyMenuBar_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyMenuBar_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyMenuBar_Example/Pods-SwiftyMenuBar_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -609,100 +451,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B6ACDB33D676C5263C8037CF7887C5BE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2D8BF46136A95CA34B295C46D25E0F3 /* SwiftyMenuBar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyMenuBar/SwiftyMenuBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyMenuBar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyMenuBar/SwiftyMenuBar.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyMenuBar;
-				PRODUCT_NAME = SwiftyMenuBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -729,15 +477,17 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		C15B2AC503E0E78396386C364275362F /* Release */ = {
+		581212E4BD794C738185EC8AF8E8DDAE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74328A256570F7582C49FE1CC6456DD9 /* Pods-SwiftyMenuBar_Tests.release.xcconfig */;
+			baseConfigurationReference = 1FB6F92E5B1EBD0DF5803B1C59629C7D /* SwiftyMenuBar.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -747,7 +497,40 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyMenuBar_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyMenuBar/SwiftyMenuBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyMenuBar/SwiftyMenuBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyMenuBar/SwiftyMenuBar.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyMenuBar;
+				PRODUCT_NAME = SwiftyMenuBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		632E7C8BA6FAF5FDF037196BBB35D371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E13CD5E19D8D425D929C4B0CD58E32C7 /* Pods-SwiftyMenuBar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyMenuBar_Tests/Pods-SwiftyMenuBar_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -767,11 +550,12 @@
 			};
 			name = Release;
 		};
-		F2A1265B5E9098449C08B79E08A5D124 /* Debug */ = {
+		723CFF7917930C53CB8E17308DF0B0F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC28CDE4F061615C09952930C9E18EEA /* Pods-SwiftyMenuBar_Tests.debug.xcconfig */;
+			baseConfigurationReference = 95D35A32B2AD0CF5377627EDFF707E3A /* Pods-SwiftyMenuBar_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -781,7 +565,41 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyMenuBar_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyMenuBar_Example/Pods-SwiftyMenuBar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyMenuBar_Example/Pods-SwiftyMenuBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC9087BC087C928449E546E63879F7B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E20BD398B9373051F3717A62E773D77F /* Pods-SwiftyMenuBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyMenuBar_Tests/Pods-SwiftyMenuBar_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -800,46 +618,174 @@
 			};
 			name = Debug;
 		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D3AF92E4296F4725A68CCBDF8CCA7785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FB6F92E5B1EBD0DF5803B1C59629C7D /* SwiftyMenuBar.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyMenuBar/SwiftyMenuBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyMenuBar/SwiftyMenuBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyMenuBar/SwiftyMenuBar.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyMenuBar;
+				PRODUCT_NAME = SwiftyMenuBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB1463F84B1E944C58B98379C242C226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EED8A597AD819CCB8970F991C234C268 /* Pods-SwiftyMenuBar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyMenuBar_Example/Pods-SwiftyMenuBar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyMenuBar_Example/Pods-SwiftyMenuBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		47F85E286E2014C81AEC68A494F0D197 /* Build configuration list for PBXNativeTarget "Pods-SwiftyMenuBar_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
-				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+				AC9087BC087C928449E546E63879F7B4 /* Debug */,
+				632E7C8BA6FAF5FDF037196BBB35D371 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79314AD77AD6291F1E39686132C5AD20 /* Build configuration list for PBXNativeTarget "Pods-SwiftyMenuBar_Example" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F5D9CCEF1A923C34ED27EED300191A1 /* Debug */,
-				53B5DCCDFFAB2A2EE3B3632C2F57F47B /* Release */,
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2D97BC522E26A31B22BD1F3812B920F /* Build configuration list for PBXNativeTarget "SwiftyMenuBar" */ = {
+		564D9200F3DD9BE02276BA77699C7C04 /* Build configuration list for PBXNativeTarget "Pods-SwiftyMenuBar_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D4BB2A2660425C2F7D3F9B6A50D9169 /* Debug */,
-				B6ACDB33D676C5263C8037CF7887C5BE /* Release */,
+				723CFF7917930C53CB8E17308DF0B0F3 /* Debug */,
+				DB1463F84B1E944C58B98379C242C226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B8556AD03EC7797A91869BEDDBE8E8A3 /* Build configuration list for PBXNativeTarget "Pods-SwiftyMenuBar_Tests" */ = {
+		8E236812A0D62E13B5EE364B2AA8F3D7 /* Build configuration list for PBXNativeTarget "SwiftyMenuBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2A1265B5E9098449C08B79E08A5D124 /* Debug */,
-				C15B2AC503E0E78396386C364275362F /* Release */,
+				581212E4BD794C738185EC8AF8E8DDAE /* Debug */,
+				D3AF92E4296F4725A68CCBDF8CCA7785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

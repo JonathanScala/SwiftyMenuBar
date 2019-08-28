@@ -1,9 +1,9 @@
 {
   "name": "SwiftyMenuBar",
   "version": "0.1.0",
-  "summary": "A short description of SwiftyMenuBar.",
+  "summary": "A neat UI lib for using top menu bars",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Jonathan Scala/SwiftyMenuBar",
+  "homepage": "https://github.com/JonathanScala/SwiftyMenuBar",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,13 @@
     "Jonathan Scala": "jonathan1234scala@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Jonathan Scala/SwiftyMenuBar.git",
+    "git": "https://github.com/JonathanScala/SwiftyMenuBar.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "SwiftyMenuBar/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "SwiftyMenuBar/Classes/**/*",
+  "swift_version": "5.0"
 }
