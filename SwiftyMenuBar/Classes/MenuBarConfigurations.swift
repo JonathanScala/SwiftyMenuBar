@@ -10,13 +10,13 @@ import UIKit
 
 
 public class MenuBarConfigurations {
-    open var startIndexPath: IndexPath = IndexPath(row: 0, section: 0)
-    open var selectedColor: UIColor = .black
-    open var sliderColor: UIColor = .black
-    open var barColor: UIColor = .white
-    open var textColor: UIColor = .gray
-    open var itemsPerPage: CGFloat = 3
-    open var scrollPosition: UICollectionView.ScrollPosition = .centeredHorizontally
-    open var font: UIFont = UIFont.systemFont(ofSize: 13)
-    open var staticSize: Bool = true
+    public var startIndexPath: IndexPath = IndexPath(row: 0, section: 0)
+    public var selectedColor: UIColor = .black
+    public var sliderColor: UIColor = .black
+    public var barColor: UIColor = .white
+    public var textColor: UIColor = .gray
+    public var itemsPerPage: CGFloat = 3
+    public var scrollPosition: UICollectionView.ScrollPosition = .centeredHorizontally
+    public var font: UIFont = UIFont.systemFont(ofSize: 13)
+    public var staticSize: Bool = true
 }
