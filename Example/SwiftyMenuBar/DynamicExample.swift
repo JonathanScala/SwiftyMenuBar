@@ -18,16 +18,16 @@ class Dynamic: UIViewController {
         let vc2 = UIViewController()
         let vc3 = UIViewController()
         let vc4 = UIViewController()
-        vc1.view.backgroundColor = .backgroundBlue
-        vc2.view.backgroundColor = .darkThemeLime
-        vc3.view.backgroundColor = .darkThemePrimary
-        vc4.view.backgroundColor = .darkThemeSurface
+        vc1.view.backgroundColor = .white
+        vc2.view.backgroundColor = .red
+        vc3.view.backgroundColor = .yellow
+        vc4.view.backgroundColor = .magenta
         return [vc1, vc2, vc3, vc4]
     }()
     fileprivate lazy var configuration: MenuBarConfigurations = {
         let conf = MenuBarConfigurations()
         conf.itemsPerPage = 3.5
-        conf.font = UIFont.systemFont(ofSize: 23)
+        conf.font = UIFont.systemFont(ofSize: 18, weight: .bold)
         conf.barColor = .clear
         conf.textColor = .white
         conf.selectedColor = .white
@@ -38,6 +38,7 @@ class Dynamic: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .lightPurple
         menu = MenuBarController(viewControllers: vcs, titles: titles)
         menu.configuration = configuration
         addChild(menu)
@@ -52,14 +53,13 @@ class Dynamic: UIViewController {
         navigationController?.navigationBar.backgroundColor = .clear
         
         // Configure Bar Button Items / Title
-        let font: UIFont = UIFont.systemFont(ofSize: 20)
         let settingsImage = UIImage.fontAwesomeIcon(name: .bars, style: .solid, textColor: .gray, size: CGSize(width: 30, height: 30))
         let searchImage = UIImage.fontAwesomeIcon(name: .search, style: .solid, textColor: .gray, size: CGSize(width: 30, height: 30))
 
         navigationItem.title = "Home"
         navigationController?.navigationBar.tintColor = .white
-        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: font, NSAttributedString.Key.foregroundColor: UIColor.white]
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: settingsImage, style: .plain, target: self, action: nil)
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: searchImage, style: .plain, target: self, action: nil)
+        navigationController?.navigationBar.titleTextAttributes = [ NSAttributedString.Key.foregroundColor: UIColor.white]
     }
 }

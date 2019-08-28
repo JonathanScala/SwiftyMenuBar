@@ -31,7 +31,7 @@ class Navigation: UIViewController {
         view.backgroundColor = .white
         let config = MenuBarConfigurations()
         config.itemsPerPage = 3.5
-        config.font = UIFont.systemFont(ofSize: 15)
+        config.font = UIFont.systemFont(ofSize: 15, weight: .bold)
         config.barColor = .white
         config.textColor = .unselectedGray
         config.selectedColor = .lightBlue
