@@ -8,7 +8,7 @@
 import UIKit
 
 
-protocol MenuBarDelegate {
+public protocol MenuBarDelegate {
     func didSelectItem(indexPath: IndexPath)
 }
 
@@ -103,7 +103,7 @@ public class MenuBar: UIView {
         applyConfiguration()
     }
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         collectionView.fillSuperview()
         if #available(iOS 11.0, *) {
@@ -146,11 +146,11 @@ public class MenuBar: UIView {
 
 
 extension MenuBar: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return titles.count
     }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! MenuBarCell
         cell.label.text = titles[indexPath.row]
         cell.selectedColor = selectedColor
@@ -160,15 +160,15 @@ extension MenuBar: UICollectionViewDataSource, UICollectionViewDelegate, UIColle
         return cell
     }
     
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+    public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: frame.width / configuration.itemsPerPage, height: frame.height)
     }
     
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+    public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 0
     }
     
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         index = indexPath.row
         moveSelectedBar(indexPathRow: indexPath.row)
         delegate?.didSelectItem(indexPath: indexPath)
