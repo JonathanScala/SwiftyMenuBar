@@ -13,11 +13,11 @@
 		53987E7F62784C6288FB6F51FF8EC2F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		7BDC0E8AC5476B641C7096D4A34B5A90 /* Pods-SwiftyMenuBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68D3B3B69010F799849D4BD76510DAE3 /* Pods-SwiftyMenuBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9689D67B40707E050D178A0310A64121 /* SwiftyMenuBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC47AD2537A4E38F8B31583A082E0A82 /* SwiftyMenuBar-dummy.m */; };
-		AB977B5E2315FBE200B0D01B /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB977B5D2315FBE200B0D01B /* MenuBar.swift */; };
-		AB977B602315FC1400B0D01B /* MenuBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB977B5F2315FC1400B0D01B /* MenuBarCell.swift */; };
-		AB977B622315FC3B00B0D01B /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB977B612315FC3B00B0D01B /* MenuBarController.swift */; };
-		AB977B642315FC6000B0D01B /* MenuBarConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB977B632315FC6000B0D01B /* MenuBarConfigurations.swift */; };
-		AB977B662315FC7800B0D01B /* LayoutAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB977B652315FC7800B0D01B /* LayoutAnchors.swift */; };
+		AB977B6D2315FF0600B0D01B /* MenuBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB977B6C2315FF0600B0D01B /* MenuBarCell.swift */; };
+		AB977B6F2315FF3000B0D01B /* LayoutAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB977B6E2315FF3000B0D01B /* LayoutAnchors.swift */; };
+		AB977B712315FF3F00B0D01B /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB977B702315FF3F00B0D01B /* MenuBar.swift */; };
+		AB977B732315FF5200B0D01B /* MenuBarConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB977B722315FF5200B0D01B /* MenuBarConfigurations.swift */; };
+		AB977B752315FF5A00B0D01B /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB977B742315FF5900B0D01B /* MenuBarController.swift */; };
 		B14C9951637DDD3CFBD517E1726D2041 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		F2475122FB4B95C302508E5DA1582405 /* Pods-SwiftyMenuBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FCD5CD5CC3E3F57120A1F5C8BF5D77 /* Pods-SwiftyMenuBar_Tests-dummy.m */; };
 		F360DCB21CD3C37693891BACF74196B4 /* Pods-SwiftyMenuBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F61D7F88EC0694E5BE67C85C44497B36 /* Pods-SwiftyMenuBar_Example-dummy.m */; };
@@ -65,11 +65,11 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9CFDC0D596698B4A6E1328221F0AC1A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A51AC5CBFB4C3AC67F26BC1658A4BB1F /* Pods-SwiftyMenuBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyMenuBar_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AB977B5D2315FBE200B0D01B /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
-		AB977B5F2315FC1400B0D01B /* MenuBarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarCell.swift; sourceTree = "<group>"; };
-		AB977B612315FC3B00B0D01B /* MenuBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarController.swift; sourceTree = "<group>"; };
-		AB977B632315FC6000B0D01B /* MenuBarConfigurations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarConfigurations.swift; sourceTree = "<group>"; };
-		AB977B652315FC7800B0D01B /* LayoutAnchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutAnchors.swift; sourceTree = "<group>"; };
+		AB977B6C2315FF0600B0D01B /* MenuBarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuBarCell.swift; path = SwiftyMenuBar/Classes/MenuBarCell.swift; sourceTree = "<group>"; };
+		AB977B6E2315FF3000B0D01B /* LayoutAnchors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LayoutAnchors.swift; path = SwiftyMenuBar/Classes/LayoutAnchors.swift; sourceTree = "<group>"; };
+		AB977B702315FF3F00B0D01B /* MenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuBar.swift; path = SwiftyMenuBar/Classes/MenuBar.swift; sourceTree = "<group>"; };
+		AB977B722315FF5200B0D01B /* MenuBarConfigurations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuBarConfigurations.swift; path = SwiftyMenuBar/Classes/MenuBarConfigurations.swift; sourceTree = "<group>"; };
+		AB977B742315FF5900B0D01B /* MenuBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuBarController.swift; path = SwiftyMenuBar/Classes/MenuBarController.swift; sourceTree = "<group>"; };
 		B4E93F7CC4B0E353BFFD02533E56D0F9 /* SwiftyMenuBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyMenuBar.modulemap; sourceTree = "<group>"; };
 		B5C0C81945505061B8120B87BC75375E /* Pods-SwiftyMenuBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyMenuBar_Tests.modulemap"; sourceTree = "<group>"; };
 		BAA7F8A34C2772AFFE737766CF6EAD32 /* Pods-SwiftyMenuBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyMenuBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -192,8 +192,8 @@
 		AB977B672315FCDA00B0D01B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AB977B702315FF3F00B0D01B /* MenuBar.swift */,
 				AB977B6B2315FD2400B0D01B /* CollectionViewCells */,
-				AB977B5D2315FBE200B0D01B /* MenuBar.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -201,7 +201,7 @@
 		AB977B682315FCE100B0D01B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				AB977B612315FC3B00B0D01B /* MenuBarController.swift */,
+				AB977B742315FF5900B0D01B /* MenuBarController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -209,7 +209,7 @@
 		AB977B692315FCEC00B0D01B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				AB977B652315FC7800B0D01B /* LayoutAnchors.swift */,
+				AB977B6E2315FF3000B0D01B /* LayoutAnchors.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -217,7 +217,7 @@
 		AB977B6A2315FCFC00B0D01B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				AB977B632315FC6000B0D01B /* MenuBarConfigurations.swift */,
+				AB977B722315FF5200B0D01B /* MenuBarConfigurations.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -225,7 +225,7 @@
 		AB977B6B2315FD2400B0D01B /* CollectionViewCells */ = {
 			isa = PBXGroup;
 			children = (
-				AB977B5F2315FC1400B0D01B /* MenuBarCell.swift */,
+				AB977B6C2315FF0600B0D01B /* MenuBarCell.swift */,
 			);
 			name = CollectionViewCells;
 			sourceTree = "<group>";
@@ -436,12 +436,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB977B622315FC3B00B0D01B /* MenuBarController.swift in Sources */,
-				AB977B5E2315FBE200B0D01B /* MenuBar.swift in Sources */,
+				AB977B6D2315FF0600B0D01B /* MenuBarCell.swift in Sources */,
+				AB977B6F2315FF3000B0D01B /* LayoutAnchors.swift in Sources */,
+				AB977B712315FF3F00B0D01B /* MenuBar.swift in Sources */,
 				F360DCB21CD3C37693891BACF74196B4 /* Pods-SwiftyMenuBar_Example-dummy.m in Sources */,
-				AB977B602315FC1400B0D01B /* MenuBarCell.swift in Sources */,
-				AB977B662315FC7800B0D01B /* LayoutAnchors.swift in Sources */,
-				AB977B642315FC6000B0D01B /* MenuBarConfigurations.swift in Sources */,
+				AB977B752315FF5A00B0D01B /* MenuBarController.swift in Sources */,
+				AB977B732315FF5200B0D01B /* MenuBarConfigurations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
