@@ -16,7 +16,7 @@ import UIKit
 }
 
 
-open class MenuBarController: UIViewController {
+public class MenuBarController: UIViewController {
     public var delegate: MenuBarControllerDelegate?
     public fileprivate(set) var viewControllers: [UIViewController]!
     public fileprivate(set) var titles: [String]!
@@ -51,7 +51,7 @@ open class MenuBarController: UIViewController {
         }
     }
     
-    init(viewControllers: [UIViewController], titles: [String]) {
+    public init(viewControllers: [UIViewController], titles: [String]) {
         super.init(nibName: nil, bundle: nil)
         self.viewControllers = viewControllers
         self.titles = titles
@@ -63,7 +63,7 @@ open class MenuBarController: UIViewController {
         view.addSubview(menuBar)
         view.addSubview(scrollView)
     }
-    
+
     override open func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
         // MenuBar Constraints

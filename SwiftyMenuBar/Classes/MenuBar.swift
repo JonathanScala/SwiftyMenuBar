@@ -13,7 +13,7 @@ protocol MenuBarDelegate {
 }
 
 
-class MenuBar: UIView {
+public class MenuBar: UIView {
     fileprivate var leftAnchorConstraint : NSLayoutConstraint?
     fileprivate var widthAnchorConstraint: NSLayoutConstraint?
     fileprivate var selectedIndexPath: IndexPath?
@@ -90,14 +90,14 @@ class MenuBar: UIView {
         applyConfiguration()
     }
     
-    convenience init(frame: CGRect, titles: [String], configuration: MenuBarConfigurations) {
+    public convenience init(frame: CGRect, titles: [String], configuration: MenuBarConfigurations) {
         self.init(titles: titles)
         self.frame = frame
         self.configuration = configuration
         applyConfiguration()
     }
     
-    convenience init(titles: [String], configuration: MenuBarConfigurations) {
+    public convenience init(titles: [String], configuration: MenuBarConfigurations) {
         self.init(titles: titles)
         self.configuration = configuration
         applyConfiguration()
@@ -131,7 +131,7 @@ class MenuBar: UIView {
         widthAnchorConstraint?.isActive = true
     }
     
-    func update(contentOffset: CGFloat, indexPath: IndexPath) {
+    public func update(contentOffset: CGFloat, indexPath: IndexPath) {
         collectionView.selectItem(at: indexPath, animated: true, scrollPosition: configuration.scrollPosition)
         leftAnchorConstraint?.constant = contentOffset / configuration.itemsPerPage
         UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
