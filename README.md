@@ -1,6 +1,6 @@
 # SwiftyMenuBar
 
-[![CI Status](https://img.shields.io/travis/Jonathan Scala/SwiftyMenuBar.svg?style=flat)](https://travis-ci.org/Jonathan Scala/SwiftyMenuBar)
+[![Build Status](https://travis-ci.com/JonathanScala/SwiftyMenuBar.svg?branch=master)](https://travis-ci.com/JonathanScala/SwiftyMenuBar)
 [![Version](https://img.shields.io/cocoapods/v/SwiftyMenuBar.svg?style=flat)](https://cocoapods.org/pods/SwiftyMenuBar)
 [![License](https://img.shields.io/cocoapods/l/SwiftyMenuBar.svg?style=flat)](https://cocoapods.org/pods/SwiftyMenuBar)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyMenuBar.svg?style=flat)](https://cocoapods.org/pods/SwiftyMenuBar)

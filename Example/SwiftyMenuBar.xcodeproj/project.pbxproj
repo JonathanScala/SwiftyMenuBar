@@ -31,7 +31,7 @@
 		01814692A83201C777EA2553 /* Pods-SwiftyMenuBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyMenuBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyMenuBar_Example/Pods-SwiftyMenuBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		085A7E929CF6B75D6673755D /* Pods-SwiftyMenuBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyMenuBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyMenuBar_Tests/Pods-SwiftyMenuBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		24B3A23D81CBED6C9A9514D2 /* Pods_SwiftyMenuBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyMenuBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		27305C111493A47E2A323A25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		27305C111493A47E2A323A25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftyMenuBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyMenuBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		AC53ADC29505016C2B20AAED /* Pods-SwiftyMenuBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyMenuBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyMenuBar_Example/Pods-SwiftyMenuBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AC8E1B79368DF73811A91C28 /* Pods-SwiftyMenuBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyMenuBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyMenuBar_Tests/Pods-SwiftyMenuBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BF2464DA6F8E6F6BF2709D74 /* Pods_SwiftyMenuBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyMenuBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D54790EF166CB54C86918F3D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FAD7F9B1A9DD5E464AF7F42A /* SwiftyMenuBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftyMenuBar.podspec; path = ../SwiftyMenuBar.podspec; sourceTree = "<group>"; };
+		D54790EF166CB54C86918F3D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FAD7F9B1A9DD5E464AF7F42A /* SwiftyMenuBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftyMenuBar.podspec; path = ../SwiftyMenuBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
