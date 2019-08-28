@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		4B4B4B8C078C16F6901A0496 /* Pods_SwiftyMenuBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2464DA6F8E6F6BF2709D74 /* Pods_SwiftyMenuBar_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
+		607FACD81AFB9204008FA782 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* MainTabBarController.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7FE456DDE979AE0DF3CE8D8F /* Pods_SwiftyMenuBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B3A23D81CBED6C9A9514D2 /* Pods_SwiftyMenuBar_Example.framework */; };
 		AB894470231704D500C7B53E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB89446E231704D500C7B53E /* LaunchScreen.xib */; };
+		AB8944732317106100C7B53E /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8944722317106100C7B53E /* UIColorExtensions.swift */; };
+		AB894477231714C400C7B53E /* NavigationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB894476231714C400C7B53E /* NavigationExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +36,14 @@
 		607FACD01AFB9204008FA782 /* SwiftyMenuBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyMenuBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		607FACD71AFB9204008FA782 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* SwiftyMenuBar_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyMenuBar_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		AB89446F231704D500C7B53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AB8944722317106100C7B53E /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		AB894476231714C400C7B53E /* NavigationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationExample.swift; sourceTree = "<group>"; };
 		AC53ADC29505016C2B20AAED /* Pods-SwiftyMenuBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyMenuBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyMenuBar_Example/Pods-SwiftyMenuBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AC8E1B79368DF73811A91C28 /* Pods-SwiftyMenuBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyMenuBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyMenuBar_Tests/Pods-SwiftyMenuBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BF2464DA6F8E6F6BF2709D74 /* Pods_SwiftyMenuBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyMenuBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,10 +115,8 @@
 		607FACD21AFB9204008FA782 /* Example for SwiftyMenuBar */ = {
 			isa = PBXGroup;
 			children = (
-				AB89446E231704D500C7B53E /* LaunchScreen.xib */,
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				AB8944752317131200C7B53E /* Extensions */,
+				AB894474231712FD00C7B53E /* ViewControllers */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for SwiftyMenuBar";
@@ -124,6 +126,9 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AB89446E231704D500C7B53E /* LaunchScreen.xib */,
+				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -154,6 +159,23 @@
 				27305C111493A47E2A323A25 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		AB894474231712FD00C7B53E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD71AFB9204008FA782 /* MainTabBarController.swift */,
+				AB894476231714C400C7B53E /* NavigationExample.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AB8944752317131200C7B53E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AB8944722317106100C7B53E /* UIColorExtensions.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,10 +308,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftyMenuBar_Example/Pods-SwiftyMenuBar_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyMenuBar/SwiftyMenuBar.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyMenuBar.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,7 +350,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				AB8944732317106100C7B53E /* UIColorExtensions.swift in Sources */,
+				607FACD81AFB9204008FA782 /* MainTabBarController.swift in Sources */,
+				AB894477231714C400C7B53E /* NavigationExample.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

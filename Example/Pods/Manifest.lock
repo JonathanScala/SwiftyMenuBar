@@ -1,16 +1,23 @@
 PODS:
+  - FontAwesome.swift (1.6.0)
   - SwiftyMenuBar (0.1.0)
 
 DEPENDENCIES:
+  - FontAwesome.swift (~> 1.6.0)
   - SwiftyMenuBar (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FontAwesome.swift
 
 EXTERNAL SOURCES:
   SwiftyMenuBar:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SwiftyMenuBar: f72cece9bd44b7934adccea107236e8f120c9782
+  FontAwesome.swift: 71a422e7b209ee940c7c21a5d13964ecf2897ca4
+  SwiftyMenuBar: b84067e2c0144bf171c0b2e2c1b3e7377c120195
 
-PODFILE CHECKSUM: 7a3f70bf836e56f3384dd4dd3e259034f251b505
+PODFILE CHECKSUM: 3e19402fb8b1bdded7c932a2ef9b322e21308dc4
 
 COCOAPODS: 1.7.5

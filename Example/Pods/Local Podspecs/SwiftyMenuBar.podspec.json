@@ -2,7 +2,7 @@
   "name": "SwiftyMenuBar",
   "version": "0.1.0",
   "summary": "A neat UI lib for using top menu bars",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "SwiftyMenuBar is a neat little library for easily adding top menu bars to your view.",
   "homepage": "https://github.com/JonathanScala/SwiftyMenuBar",
   "license": {
     "type": "MIT",
@@ -20,5 +20,9 @@
   },
   "swift_versions": "5.0",
   "source_files": "SwiftyMenuBar/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
   "swift_version": "5.0"
 }
