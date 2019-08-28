@@ -102,15 +102,16 @@ public class MenuBar: UIView {
         self.configuration = configuration
         applyConfiguration()
     }
-    
+
     override public func layoutSubviews() {
         super.layoutSubviews()
         collectionView.fillSuperview()
         if #available(iOS 11.0, *) {
             collectionView.contentInsetAdjustmentBehavior = .never
         }
+        collectionView.collectionViewLayout.invalidateLayout()
     }
-    
+
     fileprivate func applyConfiguration() {
         // SET COLORS
         textColor = configuration.textColor

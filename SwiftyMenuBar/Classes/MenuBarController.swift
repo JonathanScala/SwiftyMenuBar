@@ -84,11 +84,11 @@ public class MenuBarController: UIViewController {
         scrollView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
         scrollView.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
     }
-    
+
     open override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         super.viewWillTransition(to: size, with: coordinator)
         let xOffset : CGFloat = CGFloat(currentIndex) * size.width
-        
+
         // Update Content size on Rotation
         scrollView.contentSize.width = size.width * CGFloat(viewControllers.count)
         self.scrollView.setContentOffset(CGPoint(x: xOffset, y: self.scrollView.contentOffset.y), animated: true)
