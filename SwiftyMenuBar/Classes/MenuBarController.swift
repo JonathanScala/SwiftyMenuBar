@@ -93,14 +93,14 @@ public class MenuBarController: UIViewController {
         scrollView.contentSize.width = size.width * CGFloat(viewControllers.count)
         self.scrollView.setContentOffset(CGPoint(x: xOffset, y: self.scrollView.contentOffset.y), animated: true)
     }
-    
+
     fileprivate func addControllers(controllers: [UIViewController]) {
         for index in 0..<controllers.count {
             let controller = controllers[index]
             controller.willMove(toParent: self)
             addChild(controller)
             scrollView.addSubview(controller.view)
-            
+
             // Constraints
             let leftAnchor = (index > 0) ? controllers[index - 1].view.rightAnchor : scrollView.leftAnchor
             controller.view.translatesAutoresizingMaskIntoConstraints = false
@@ -108,12 +108,11 @@ public class MenuBarController: UIViewController {
             controller.view.topAnchor.constraint(equalTo: scrollView.topAnchor).isActive = true
             controller.view.widthAnchor.constraint(equalTo: scrollView.widthAnchor).isActive = true
             controller.view.heightAnchor.constraint(equalTo: scrollView.heightAnchor).isActive = true
-            
             // Did Move
             controller.didMove(toParent: self)
         }
     }
-    
+
     fileprivate func removeController(index: Int) {
         guard let controller = viewControllers?[index] else {
             return
@@ -123,11 +122,10 @@ public class MenuBarController: UIViewController {
         controller.removeFromParent()
         controller.didMove(toParent: nil)
     }
-    
+
     required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
 }
 
 
@@ -135,7 +133,7 @@ extension MenuBarController: UIScrollViewDelegate, MenuBarDelegate {
     public func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let offset = scrollView.contentOffset.x
         let currentPage = scrollView.contentOffset.x / scrollView.frame.size.width
-        
+
         if ceil(currentPage) == currentPage {
             // Have Transitioned
             previousIndex = currentIndex
@@ -144,7 +142,7 @@ extension MenuBarController: UIScrollViewDelegate, MenuBarDelegate {
         menuBar.update(contentOffset: offset, indexPath: IndexPath(row: currentIndex, section: 0))
         delegate?.menuBarController?(self, didScrollFrom: viewControllers[previousIndex], destinationController: viewControllers[currentIndex])
     }
-    
+
     public func didSelectItem(indexPath: IndexPath) {
         previousIndex = currentIndex
         currentIndex = indexPath.row
