@@ -7,57 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00D35E662B05ACB764897A5E2EEA213F /* Pods-SwiftyMenuBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C8921A5E44BA9A9B73CC82204999E4 /* Pods-SwiftyMenuBar_Example-dummy.m */; };
-		08FA521531A6DFC1209732035429ED00 /* FontAwesomeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BBE9475E603550789CD4EDB306A821 /* FontAwesomeImageView.swift */; };
-		0FB5FF51B597E1E0312C5F1438BAB51B /* FontAwesome.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F1D9326FFE3AA5F2D7A9B8CBD776B9 /* FontAwesome.swift-dummy.m */; };
+		08FA521531A6DFC1209732035429ED00 /* FontAwesomeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A87ABAC3CD4EF271AA25DB2D6C15B7 /* FontAwesomeImageView.swift */; };
+		0FB5FF51B597E1E0312C5F1438BAB51B /* FontAwesome.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C0646EB4ACA0171829285B0E539145 /* FontAwesome.swift-dummy.m */; };
 		10B3BF3CB2DACAE518E04785C0FB7A66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23621862A99429490F9C983069F078BB /* Foundation.framework */; };
 		21C938859F0F2607D5915427E95DB1E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032F67321D34EE01369F5810E71B7660 /* UIKit.framework */; };
-		22CAB863C8E98C2BD1CEEA2381A46A34 /* FontAwesomeTextRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A63DB8B4787A91753D77E17BF34C9DA /* FontAwesomeTextRepresentable.swift */; };
+		22CAB863C8E98C2BD1CEEA2381A46A34 /* FontAwesomeTextRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C397C179A5341D8B2CA5D7AEF538EB /* FontAwesomeTextRepresentable.swift */; };
 		26D86A5A6215B671C527751DFD6BFE1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032F67321D34EE01369F5810E71B7660 /* UIKit.framework */; };
+		2AD25E748C3600E6972165712C2E61E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23621862A99429490F9C983069F078BB /* Foundation.framework */; };
 		339DF44415E215FE1749B0F45EDE4CB2 /* LayoutAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DCF2292C621EA0A098C58681C428FE /* LayoutAnchors.swift */; };
 		4A0DF7074EBF9800B3B1E9FFEF3110CB /* MenuBarConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60270763588BBCE368B5FC0AEDB60825 /* MenuBarConfigurations.swift */; };
-		506ACADC63134125FA6DF10CF06FD027 /* Font Awesome 5 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6916630DC98C8227230286E4AB17596 /* Font Awesome 5 Brands-Regular-400.otf */; };
+		506ACADC63134125FA6DF10CF06FD027 /* Font Awesome 5 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 720991C3A13C8548F801201FC551BE04 /* Font Awesome 5 Brands-Regular-400.otf */; };
 		539DD26836048C87E4B9AACF7C056777 /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CEC5609F2B897A2C0BD797BDA00A19 /* MenuBarController.swift */; };
-		55286D2DEC1DB91F601519B9649B49C2 /* Font Awesome 5 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = BB200D8E8B3C0149CCB382D176623C81 /* Font Awesome 5 Free-Regular-400.otf */; };
-		632EC0ADDD99413F1C10964C64CF72B6 /* FontAwesomeImageRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DD6C3C988B717D0F51D3C367932F56 /* FontAwesomeImageRepresentable.swift */; };
+		55286D2DEC1DB91F601519B9649B49C2 /* Font Awesome 5 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C72939D6F54A59CB9C0DB5CA45C2071 /* Font Awesome 5 Free-Regular-400.otf */; };
+		56FD97342C9886EE164EEFD6C9D4EA52 /* Pods-SwiftyMenuBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C8921A5E44BA9A9B73CC82204999E4 /* Pods-SwiftyMenuBar_Example-dummy.m */; };
+		5F46B77615FFBDE0CFD77B8A6FEA646C /* PastelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A49ECAA999DF965F51DC253390DCE /* PastelView.swift */; };
+		632EC0ADDD99413F1C10964C64CF72B6 /* FontAwesomeImageRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CE0469AADEE5985CD3B331908F4165 /* FontAwesomeImageRepresentable.swift */; };
 		64BB8187EC9BBECC6509F13DFF481783 /* SwiftyMenuBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61084AB87CD13929D1541B24049C69D9 /* SwiftyMenuBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67F3D3F39D5D25B7E3C3A1C32F22EA39 /* Pastel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01874F8C149277E88B4993C9FE41B433 /* Pastel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CADCBC18CE422499677C423AB08B95A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23621862A99429490F9C983069F078BB /* Foundation.framework */; };
 		6CD93D0B69851B5C2159021869AE798F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23621862A99429490F9C983069F078BB /* Foundation.framework */; };
 		769E73BAE26F14766F3D2F8CC2A295EF /* FontAwesome.swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3DA4F5DC4EB6E9DF6B4859D27EF8C9F5 /* FontAwesome.swift.bundle */; };
 		79FE36D1C8226717456AE44480908995 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10109C5D8D91F0F0260B25C024FA836B /* MenuBar.swift */; };
-		7BFE4CB72D9AD8D1781B864B5C1EE1B6 /* FontAwesomeBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B3E9E2BD61D74A6B939F512FD6EC58 /* FontAwesomeBarButtonItem.swift */; };
+		7BFE4CB72D9AD8D1781B864B5C1EE1B6 /* FontAwesomeBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E415CB3F1FC8D46809A687FDABC5F999 /* FontAwesomeBarButtonItem.swift */; };
 		7C030B28A096654156B5E98C0FFD6276 /* Pods-SwiftyMenuBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BB20DCF1E0F243599F7D0028398481C /* Pods-SwiftyMenuBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81254017D2D4A97CBE1534E22E519329 /* FontAwesomeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C081A89DEF62C25996CBA497CAE86F77 /* FontAwesomeExtension.swift */; };
-		88703EFA5F39A9C53799FB29E017AD42 /* Font Awesome 5 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = F6826E64981ADD0C000622E61A911BCE /* Font Awesome 5 Free-Solid-900.otf */; };
-		8DC785D0EC04427925ED3F93017DC624 /* FontAwesomeSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2B228BFD5DE71055A2E5CDA2784D9A /* FontAwesomeSegmentedControl.swift */; };
-		9DE3360E24D9FE3ADA0C2162E8DBE1A5 /* FontAwesome.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10099FD1A567CD8434C19BE1DC7BDBB1 /* FontAwesome.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A40FD679EA4164AAB96094D8AE90CD09 /* FontAwesomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD85806CE6463C73FE78008CCFDA777 /* FontAwesomeView.swift */; };
-		C472BF180CE883EE3D8D12C5D1BFDFA7 /* FontAwesomeTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08427C3E82CF7D028CA4B03B90992792 /* FontAwesomeTabBarItem.swift */; };
+		81254017D2D4A97CBE1534E22E519329 /* FontAwesomeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC68DB4802E7F8C003A75E5DFD20A2D /* FontAwesomeExtension.swift */; };
+		88703EFA5F39A9C53799FB29E017AD42 /* Font Awesome 5 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = E19B9F48271A962C4B46DA5F039489B8 /* Font Awesome 5 Free-Solid-900.otf */; };
+		8DC785D0EC04427925ED3F93017DC624 /* FontAwesomeSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B170BFC7D429790123A3C89AA37193 /* FontAwesomeSegmentedControl.swift */; };
+		9DE3360E24D9FE3ADA0C2162E8DBE1A5 /* FontAwesome.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1678DAD3350C3381947A0902E4E667CE /* FontAwesome.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E5784B12FCB5B512CF072F1B05AF075 /* PastelPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A095EFC220DA36D637D16341B2F45F6 /* PastelPoint.swift */; };
+		A40FD679EA4164AAB96094D8AE90CD09 /* FontAwesomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F2B53671983CB5A3C0F37CF85F2413 /* FontAwesomeView.swift */; };
+		A86D3DB0B67FF29709A36E54A00B12E0 /* PastelGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF0D25C9777D537965BB1EFCD3FE1B7 /* PastelGradient.swift */; };
+		B9B8D20601FF222DA61DFBEA646730BA /* Pastel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80989A7E64470270380BAE4F36F67043 /* Pastel-dummy.m */; };
+		C472BF180CE883EE3D8D12C5D1BFDFA7 /* FontAwesomeTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3DAF33D08163A0EACE62DF01FD9B3C /* FontAwesomeTabBarItem.swift */; };
+		C6BFCFB2721D2029FD9184F09F7830F4 /* PastelLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA790AD96CEBFE838D4A73AF052047A /* PastelLabel.swift */; };
 		C7BA1B3FC4C025CAF4C156B2912BF3F8 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9A0B672B6CDCA33D84AB895D938167 /* CoreText.framework */; };
-		C8C221327B5E2912A9160073452C7969 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23621862A99429490F9C983069F078BB /* Foundation.framework */; };
 		D2A3F04000D87EEA6640F439E68EC6ED /* SwiftyMenuBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0880A46F8DCCA22ED25FEA96A6811175 /* SwiftyMenuBar-dummy.m */; };
-		D6B833D22B271D016A8AE19C8D10584D /* Pods-SwiftyMenuBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2DF7D09740A9EEE97994B3AE79C9E0 /* Pods-SwiftyMenuBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D71293F143E62C33E8676E4E6CC8DA6F /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212708CD13E999CE921CF0F4159BAF13 /* FontAwesome.swift */; };
-		DC7A22B339CA1049C19D06C7A93DF302 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB52F40D458EA130E5399130F64368DB /* Enum.swift */; };
+		D5E44AED525A78DF95933F3F0FB88B6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23621862A99429490F9C983069F078BB /* Foundation.framework */; };
+		D71293F143E62C33E8676E4E6CC8DA6F /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FA2F4B9233BC7BB4DDCA9C5B4F897F /* FontAwesome.swift */; };
+		DC7A22B339CA1049C19D06C7A93DF302 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85DF23265D9C976E3E1CDB456376051 /* Enum.swift */; };
+		ED9CE7F3454703FA3520682259AEDBEE /* Pods-SwiftyMenuBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2DF7D09740A9EEE97994B3AE79C9E0 /* Pods-SwiftyMenuBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FDF3691FED86E1F8B3064A270072EEE5 /* MenuBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE1E8F2C26E913C12BA22DD0276B45A /* MenuBarCell.swift */; };
-		FE49B0792565E3DBA62187EBEB4E1E58 /* FontAwesomeStateRequirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D7DD39488E5DF6A74FD2DFAAF15056 /* FontAwesomeStateRequirement.swift */; };
+		FE49B0792565E3DBA62187EBEB4E1E58 /* FontAwesomeStateRequirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD15F3DD3BEB3E94258B05AC093563 /* FontAwesomeStateRequirement.swift */; };
 		FF5A4FCE7054E091C294A56DE5F8B4F2 /* Pods-SwiftyMenuBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D964432AFBAA9BCF456E7AE4B345F1 /* Pods-SwiftyMenuBar_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		422BA0CAE846B22FC5BB73952227267D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BB240150692F32EC312F3CF346C8B9D1;
-			remoteInfo = FontAwesome.swift;
-		};
-		6ED5CF5128859C56D67825D42C9E21E3 /* PBXContainerItemProxy */ = {
+		514704678823E4F36C4E3CBD5B39E134 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1238B9DB06D12A06466D349CF61BAED5;
 			remoteInfo = SwiftyMenuBar;
+		};
+		531A3B926CA32AED0D42E02F985BFBC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB240150692F32EC312F3CF346C8B9D1;
+			remoteInfo = FontAwesome.swift;
 		};
 		8C3ADD732D50FB486231AC9018A86423 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -73,70 +80,88 @@
 			remoteGlobalIDString = 4DC20DD2E50259D674257304EC016C93;
 			remoteInfo = "FontAwesome.swift-FontAwesome.swift";
 		};
+		D3A07BCD06E6BDC380D51AD7A4BA2A0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 223ACB2993ED61193B95A52611ED34E7;
+			remoteInfo = Pastel;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00FEA6C9102D4ECF5E615A2339595D60 /* Pods-SwiftyMenuBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyMenuBar_Tests.modulemap"; sourceTree = "<group>"; };
+		01874F8C149277E88B4993C9FE41B433 /* Pastel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pastel-umbrella.h"; sourceTree = "<group>"; };
 		032F67321D34EE01369F5810E71B7660 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		08427C3E82CF7D028CA4B03B90992792 /* FontAwesomeTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeTabBarItem.swift; path = FontAwesome/FontAwesomeTabBarItem.swift; sourceTree = "<group>"; };
+		056E54B89F5DC70EDA9A7092B76DB882 /* Pastel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pastel-Info.plist"; sourceTree = "<group>"; };
+		07B170BFC7D429790123A3C89AA37193 /* FontAwesomeSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeSegmentedControl.swift; path = FontAwesome/FontAwesomeSegmentedControl.swift; sourceTree = "<group>"; };
 		0880A46F8DCCA22ED25FEA96A6811175 /* SwiftyMenuBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyMenuBar-dummy.m"; sourceTree = "<group>"; };
 		0BB20DCF1E0F243599F7D0028398481C /* Pods-SwiftyMenuBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyMenuBar_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0C9A0B672B6CDCA33D84AB895D938167 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
-		10099FD1A567CD8434C19BE1DC7BDBB1 /* FontAwesome.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-umbrella.h"; sourceTree = "<group>"; };
 		10109C5D8D91F0F0260B25C024FA836B /* MenuBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuBar.swift; path = SwiftyMenuBar/Classes/MenuBar.swift; sourceTree = "<group>"; };
-		19A0C5C17163E1AC77611D38612C21D1 /* FontAwesome.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-prefix.pch"; sourceTree = "<group>"; };
+		1678DAD3350C3381947A0902E4E667CE /* FontAwesome.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-umbrella.h"; sourceTree = "<group>"; };
 		1DBDF27C0902271C9A465E734D9B7232 /* Pods-SwiftyMenuBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyMenuBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1E2B228BFD5DE71055A2E5CDA2784D9A /* FontAwesomeSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeSegmentedControl.swift; path = FontAwesome/FontAwesomeSegmentedControl.swift; sourceTree = "<group>"; };
 		1EB52373F761CB261F6239C8DD0A3017 /* Pods-SwiftyMenuBar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyMenuBar_Example-Info.plist"; sourceTree = "<group>"; };
 		1FB6F92E5B1EBD0DF5803B1C59629C7D /* SwiftyMenuBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyMenuBar.xcconfig; sourceTree = "<group>"; };
-		212708CD13E999CE921CF0F4159BAF13 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = FontAwesome/FontAwesome.swift; sourceTree = "<group>"; };
 		21D964432AFBAA9BCF456E7AE4B345F1 /* Pods-SwiftyMenuBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyMenuBar_Tests-dummy.m"; sourceTree = "<group>"; };
-		228314C4616CA3C4F7A487B2EF261541 /* ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist"; sourceTree = "<group>"; };
-		232E2607A5846969E61A55D9F45D42A7 /* FontAwesome.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FontAwesome.swift.modulemap; sourceTree = "<group>"; };
 		23621862A99429490F9C983069F078BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		279AC2BD9747AE3E72028B4684278D03 /* Pastel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pastel-prefix.pch"; sourceTree = "<group>"; };
 		28A3CCFDC77829170B0B12EB9E3391CF /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FontAwesome_swift.framework; path = FontAwesome.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		31B432725D645471C781655AED639CCC /* FontAwesome.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FontAwesome.swift-Info.plist"; sourceTree = "<group>"; };
-		3A63DB8B4787A91753D77E17BF34C9DA /* FontAwesomeTextRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeTextRepresentable.swift; path = FontAwesome/FontAwesomeTextRepresentable.swift; sourceTree = "<group>"; };
+		2A6691A871CAF61A7BB5B93D7A77BF3B /* ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist"; sourceTree = "<group>"; };
+		304CC77AC9077C4C37E9B4EA92D60C90 /* FontAwesome.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesome.swift.xcconfig; sourceTree = "<group>"; };
 		3DA4F5DC4EB6E9DF6B4859D27EF8C9F5 /* FontAwesome.swift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FontAwesome.swift.bundle; path = "FontAwesome.swift-FontAwesome.swift.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E472624DEEF2C9FA7DCDE9C349C6B55 /* FontAwesome.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FontAwesome.swift-Info.plist"; sourceTree = "<group>"; };
+		44A87ABAC3CD4EF271AA25DB2D6C15B7 /* FontAwesomeImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeImageView.swift; path = FontAwesome/FontAwesomeImageView.swift; sourceTree = "<group>"; };
+		485A49ECAA999DF965F51DC253390DCE /* PastelView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PastelView.swift; path = Pastel/Classes/PastelView.swift; sourceTree = "<group>"; };
+		4A095EFC220DA36D637D16341B2F45F6 /* PastelPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PastelPoint.swift; path = Pastel/Classes/PastelPoint.swift; sourceTree = "<group>"; };
+		4EA790AD96CEBFE838D4A73AF052047A /* PastelLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PastelLabel.swift; path = Pastel/Classes/PastelLabel.swift; sourceTree = "<group>"; };
 		536B9064272B8F6D994B7B216BD690F9 /* SwiftyMenuBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftyMenuBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		56F1D9326FFE3AA5F2D7A9B8CBD776B9 /* FontAwesome.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesome.swift-dummy.m"; sourceTree = "<group>"; };
 		60270763588BBCE368B5FC0AEDB60825 /* MenuBarConfigurations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuBarConfigurations.swift; path = SwiftyMenuBar/Classes/MenuBarConfigurations.swift; sourceTree = "<group>"; };
 		61084AB87CD13929D1541B24049C69D9 /* SwiftyMenuBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyMenuBar-umbrella.h"; sourceTree = "<group>"; };
-		61D7DD39488E5DF6A74FD2DFAAF15056 /* FontAwesomeStateRequirement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeStateRequirement.swift; path = FontAwesome/FontAwesomeStateRequirement.swift; sourceTree = "<group>"; };
+		62E6637D1F8E5C9ACF366AEB1FC5AE8A /* FontAwesome.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FontAwesome.swift.modulemap; sourceTree = "<group>"; };
 		64287B6B5E3138EA80794F07CEF2F25D /* SwiftyMenuBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyMenuBar-Info.plist"; sourceTree = "<group>"; };
+		6C72939D6F54A59CB9C0DB5CA45C2071 /* Font Awesome 5 Free-Regular-400.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Font Awesome 5 Free-Regular-400.otf"; path = "FontAwesome/Font Awesome 5 Free-Regular-400.otf"; sourceTree = "<group>"; };
+		720991C3A13C8548F801201FC551BE04 /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Font Awesome 5 Brands-Regular-400.otf"; path = "FontAwesome/Font Awesome 5 Brands-Regular-400.otf"; sourceTree = "<group>"; };
 		72A964BB6EEF66ADF86299AE42A499F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		74CF3A5DD34D0114D3129CE4DCA3B2D3 /* Pods-SwiftyMenuBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyMenuBar_Example.modulemap"; sourceTree = "<group>"; };
 		7B2DF7D09740A9EEE97994B3AE79C9E0 /* Pods-SwiftyMenuBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyMenuBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		7E6869F153D7CB9C1B22DAF7252FF3E4 /* Pastel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pastel.framework; path = Pastel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		801B57434085566070B778C1EEC84170 /* Pastel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Pastel.modulemap; sourceTree = "<group>"; };
+		80989A7E64470270380BAE4F36F67043 /* Pastel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pastel-dummy.m"; sourceTree = "<group>"; };
 		85C5B3E47B356E5D98F88F547913AEEE /* Pods_SwiftyMenuBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftyMenuBar_Tests.framework; path = "Pods-SwiftyMenuBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3DAF33D08163A0EACE62DF01FD9B3C /* FontAwesomeTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeTabBarItem.swift; path = FontAwesome/FontAwesomeTabBarItem.swift; sourceTree = "<group>"; };
+		8F7640951C417EE5A6A92943CB24676F /* FontAwesome.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-prefix.pch"; sourceTree = "<group>"; };
 		90325ED33EB22C2D2B32C81EC6C2FB8A /* Pods-SwiftyMenuBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyMenuBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92FA2F4B9233BC7BB4DDCA9C5B4F897F /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = FontAwesome/FontAwesome.swift; sourceTree = "<group>"; };
 		95D35A32B2AD0CF5377627EDFF707E3A /* Pods-SwiftyMenuBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMenuBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB52F40D458EA130E5399130F64368DB /* Enum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enum.swift; path = FontAwesome/Enum.swift; sourceTree = "<group>"; };
+		9FF0D25C9777D537965BB1EFCD3FE1B7 /* PastelGradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PastelGradient.swift; path = Pastel/Classes/PastelGradient.swift; sourceTree = "<group>"; };
+		A5F2B53671983CB5A3C0F37CF85F2413 /* FontAwesomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeView.swift; path = FontAwesome/FontAwesomeView.swift; sourceTree = "<group>"; };
+		AEC68DB4802E7F8C003A75E5DFD20A2D /* FontAwesomeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeExtension.swift; path = FontAwesome/FontAwesomeExtension.swift; sourceTree = "<group>"; };
+		B0C0646EB4ACA0171829285B0E539145 /* FontAwesome.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesome.swift-dummy.m"; sourceTree = "<group>"; };
 		B2F5B4ED975523A3B132E990E3D32787 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		BB200D8E8B3C0149CCB382D176623C81 /* Font Awesome 5 Free-Regular-400.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Font Awesome 5 Free-Regular-400.otf"; path = "FontAwesome/Font Awesome 5 Free-Regular-400.otf"; sourceTree = "<group>"; };
-		C081A89DEF62C25996CBA497CAE86F77 /* FontAwesomeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeExtension.swift; path = FontAwesome/FontAwesomeExtension.swift; sourceTree = "<group>"; };
-		C6916630DC98C8227230286E4AB17596 /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Font Awesome 5 Brands-Regular-400.otf"; path = "FontAwesome/Font Awesome 5 Brands-Regular-400.otf"; sourceTree = "<group>"; };
-		C8DD6C3C988B717D0F51D3C367932F56 /* FontAwesomeImageRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeImageRepresentable.swift; path = FontAwesome/FontAwesomeImageRepresentable.swift; sourceTree = "<group>"; };
 		C8E472670CCAB2AD56247C3286C43FD8 /* Pods-SwiftyMenuBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyMenuBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBDD15F3DD3BEB3E94258B05AC093563 /* FontAwesomeStateRequirement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeStateRequirement.swift; path = FontAwesome/FontAwesomeStateRequirement.swift; sourceTree = "<group>"; };
 		CEE1E8F2C26E913C12BA22DD0276B45A /* MenuBarCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuBarCell.swift; path = SwiftyMenuBar/Classes/MenuBarCell.swift; sourceTree = "<group>"; };
 		D1CEC5609F2B897A2C0BD797BDA00A19 /* MenuBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuBarController.swift; path = SwiftyMenuBar/Classes/MenuBarController.swift; sourceTree = "<group>"; };
+		D2CE0469AADEE5985CD3B331908F4165 /* FontAwesomeImageRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeImageRepresentable.swift; path = FontAwesome/FontAwesomeImageRepresentable.swift; sourceTree = "<group>"; };
 		D32324A43375559B5BC2575D1E320D4F /* Pods-SwiftyMenuBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyMenuBar_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D390C1547295A7A4FF4758585E80E8FF /* Pods-SwiftyMenuBar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyMenuBar_Tests-Info.plist"; sourceTree = "<group>"; };
 		D3A6C6F90E2C5856B305199998980025 /* SwiftyMenuBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyMenuBar.modulemap; sourceTree = "<group>"; };
 		D853519A18A4FC467261BDE765F3257B /* Pods-SwiftyMenuBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyMenuBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D85DF23265D9C976E3E1CDB456376051 /* Enum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enum.swift; path = FontAwesome/Enum.swift; sourceTree = "<group>"; };
 		D8C8921A5E44BA9A9B73CC82204999E4 /* Pods-SwiftyMenuBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyMenuBar_Example-dummy.m"; sourceTree = "<group>"; };
 		DB6A700C3E8314A2F933F507BB1185A0 /* SwiftyMenuBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyMenuBar-prefix.pch"; sourceTree = "<group>"; };
 		E13CD5E19D8D425D929C4B0CD58E32C7 /* Pods-SwiftyMenuBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMenuBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E1B3E9E2BD61D74A6B939F512FD6EC58 /* FontAwesomeBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeBarButtonItem.swift; path = FontAwesome/FontAwesomeBarButtonItem.swift; sourceTree = "<group>"; };
+		E19B9F48271A962C4B46DA5F039489B8 /* Font Awesome 5 Free-Solid-900.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Font Awesome 5 Free-Solid-900.otf"; path = "FontAwesome/Font Awesome 5 Free-Solid-900.otf"; sourceTree = "<group>"; };
 		E20BD398B9373051F3717A62E773D77F /* Pods-SwiftyMenuBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMenuBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E2C83BB9A163BFEBC10DB12B01434FF7 /* Pods_SwiftyMenuBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftyMenuBar_Example.framework; path = "Pods-SwiftyMenuBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C397C179A5341D8B2CA5D7AEF538EB /* FontAwesomeTextRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeTextRepresentable.swift; path = FontAwesome/FontAwesomeTextRepresentable.swift; sourceTree = "<group>"; };
+		E415CB3F1FC8D46809A687FDABC5F999 /* FontAwesomeBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeBarButtonItem.swift; path = FontAwesome/FontAwesomeBarButtonItem.swift; sourceTree = "<group>"; };
 		E4DCF2292C621EA0A098C58681C428FE /* LayoutAnchors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutAnchors.swift; path = SwiftyMenuBar/Classes/LayoutAnchors.swift; sourceTree = "<group>"; };
+		E8381853BC2505C1A2E8732D8346FC4C /* Pastel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pastel.xcconfig; sourceTree = "<group>"; };
 		EED8A597AD819CCB8970F991C234C268 /* Pods-SwiftyMenuBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyMenuBar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F4D16BBBFB2DFBBF0ECDE4AE6A1A93AE /* FontAwesome.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesome.swift.xcconfig; sourceTree = "<group>"; };
-		F5BBE9475E603550789CD4EDB306A821 /* FontAwesomeImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeImageView.swift; path = FontAwesome/FontAwesomeImageView.swift; sourceTree = "<group>"; };
-		F6826E64981ADD0C000622E61A911BCE /* Font Awesome 5 Free-Solid-900.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Font Awesome 5 Free-Solid-900.otf"; path = "FontAwesome/Font Awesome 5 Free-Solid-900.otf"; sourceTree = "<group>"; };
 		FAFCD68316F7F66C5CBBC77C8534B422 /* SwiftyMenuBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyMenuBar.framework; path = SwiftyMenuBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFD85806CE6463C73FE78008CCFDA777 /* FontAwesomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeView.swift; path = FontAwesome/FontAwesomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +170,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				10B3BF3CB2DACAE518E04785C0FB7A66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633916D43C1FED89997608449F54C7EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E44AED525A78DF95933F3F0FB88B6B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,11 +207,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAFD2260C22509004C9CF8145562704B /* Frameworks */ = {
+		C6BCEE876BC898D2498CD59B8A323782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8C221327B5E2912A9160073452C7969 /* Foundation.framework in Frameworks */,
+				2AD25E748C3600E6972165712C2E61E6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,21 +236,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		0AC9DC550F3196F18CE7148F724DDC24 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				232E2607A5846969E61A55D9F45D42A7 /* FontAwesome.swift.modulemap */,
-				F4D16BBBFB2DFBBF0ECDE4AE6A1A93AE /* FontAwesome.swift.xcconfig */,
-				56F1D9326FFE3AA5F2D7A9B8CBD776B9 /* FontAwesome.swift-dummy.m */,
-				31B432725D645471C781655AED639CCC /* FontAwesome.swift-Info.plist */,
-				19A0C5C17163E1AC77611D38612C21D1 /* FontAwesome.swift-prefix.pch */,
-				10099FD1A567CD8434C19BE1DC7BDBB1 /* FontAwesome.swift-umbrella.h */,
-				228314C4616CA3C4F7A487B2EF261541 /* ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FontAwesome.swift";
-			sourceTree = "<group>";
-		};
 		11E7738FD57B68F84A1925405C6D5254 /* Pods-SwiftyMenuBar_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,6 +252,21 @@
 			path = "Target Support Files/Pods-SwiftyMenuBar_Tests";
 			sourceTree = "<group>";
 		};
+		1D70A50EDF413A15E303CA1940B8F032 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62E6637D1F8E5C9ACF366AEB1FC5AE8A /* FontAwesome.swift.modulemap */,
+				304CC77AC9077C4C37E9B4EA92D60C90 /* FontAwesome.swift.xcconfig */,
+				B0C0646EB4ACA0171829285B0E539145 /* FontAwesome.swift-dummy.m */,
+				3E472624DEEF2C9FA7DCDE9C349C6B55 /* FontAwesome.swift-Info.plist */,
+				8F7640951C417EE5A6A92943CB24676F /* FontAwesome.swift-prefix.pch */,
+				1678DAD3350C3381947A0902E4E667CE /* FontAwesome.swift-umbrella.h */,
+				2A6691A871CAF61A7BB5B93D7A77BF3B /* ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FontAwesome.swift";
+			sourceTree = "<group>";
+		};
 		261E3B6F7F0A16256A54E96EC55D2A9D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,6 +275,27 @@
 				536B9064272B8F6D994B7B216BD690F9 /* SwiftyMenuBar.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		355B89161DA616784AE2B1C9557E4E0F /* FontAwesome.swift */ = {
+			isa = PBXGroup;
+			children = (
+				D85DF23265D9C976E3E1CDB456376051 /* Enum.swift */,
+				92FA2F4B9233BC7BB4DDCA9C5B4F897F /* FontAwesome.swift */,
+				E415CB3F1FC8D46809A687FDABC5F999 /* FontAwesomeBarButtonItem.swift */,
+				AEC68DB4802E7F8C003A75E5DFD20A2D /* FontAwesomeExtension.swift */,
+				D2CE0469AADEE5985CD3B331908F4165 /* FontAwesomeImageRepresentable.swift */,
+				44A87ABAC3CD4EF271AA25DB2D6C15B7 /* FontAwesomeImageView.swift */,
+				07B170BFC7D429790123A3C89AA37193 /* FontAwesomeSegmentedControl.swift */,
+				CBDD15F3DD3BEB3E94258B05AC093563 /* FontAwesomeStateRequirement.swift */,
+				8A3DAF33D08163A0EACE62DF01FD9B3C /* FontAwesomeTabBarItem.swift */,
+				E3C397C179A5341D8B2CA5D7AEF538EB /* FontAwesomeTextRepresentable.swift */,
+				A5F2B53671983CB5A3C0F37CF85F2413 /* FontAwesomeView.swift */,
+				C48EF5FC276C819427D95EAF30960023 /* Resources */,
+				1D70A50EDF413A15E303CA1940B8F032 /* Support Files */,
+			);
+			name = FontAwesome.swift;
+			path = FontAwesome.swift;
 			sourceTree = "<group>";
 		};
 		4261E567B7692DC5D9EF0D5C6F6F68AD /* Targets Support Files */ = {
@@ -253,22 +307,31 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4E2BFE0FC672FCA7CA36B1142D3875D7 /* Pods */ = {
+		4E352B0D751F31EAD70C1D6D95A39535 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C99F98A5522FFD208F0EFCF96A35406C /* FontAwesome.swift */,
+				801B57434085566070B778C1EEC84170 /* Pastel.modulemap */,
+				E8381853BC2505C1A2E8732D8346FC4C /* Pastel.xcconfig */,
+				80989A7E64470270380BAE4F36F67043 /* Pastel-dummy.m */,
+				056E54B89F5DC70EDA9A7092B76DB882 /* Pastel-Info.plist */,
+				279AC2BD9747AE3E72028B4684278D03 /* Pastel-prefix.pch */,
+				01874F8C149277E88B4993C9FE41B433 /* Pastel-umbrella.h */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/Pastel";
 			sourceTree = "<group>";
 		};
-		64F84B61BA254C56B02E9C051E6D8C13 /* Resources */ = {
+		590A3C85B63C01A8C66F34F9ACBAD858 /* Pastel */ = {
 			isa = PBXGroup;
 			children = (
-				C6916630DC98C8227230286E4AB17596 /* Font Awesome 5 Brands-Regular-400.otf */,
-				BB200D8E8B3C0149CCB382D176623C81 /* Font Awesome 5 Free-Regular-400.otf */,
-				F6826E64981ADD0C000622E61A911BCE /* Font Awesome 5 Free-Solid-900.otf */,
+				9FF0D25C9777D537965BB1EFCD3FE1B7 /* PastelGradient.swift */,
+				4EA790AD96CEBFE838D4A73AF052047A /* PastelLabel.swift */,
+				4A095EFC220DA36D637D16341B2F45F6 /* PastelPoint.swift */,
+				485A49ECAA999DF965F51DC253390DCE /* PastelView.swift */,
+				4E352B0D751F31EAD70C1D6D95A39535 /* Support Files */,
 			);
-			name = Resources;
+			name = Pastel;
+			path = Pastel;
 			sourceTree = "<group>";
 		};
 		6B2543D0A5D4A57A1ACD2D0FE9126E4A /* Support Files */ = {
@@ -283,18 +346,6 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SwiftyMenuBar";
-			sourceTree = "<group>";
-		};
-		7F2A77F35EDC92B30F96A7E247D06C2F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3DA4F5DC4EB6E9DF6B4859D27EF8C9F5 /* FontAwesome.swift.bundle */,
-				28A3CCFDC77829170B0B12EB9E3391CF /* FontAwesome_swift.framework */,
-				E2C83BB9A163BFEBC10DB12B01434FF7 /* Pods_SwiftyMenuBar_Example.framework */,
-				85C5B3E47B356E5D98F88F547913AEEE /* Pods_SwiftyMenuBar_Tests.framework */,
-				FAFCD68316F7F66C5CBBC77C8534B422 /* SwiftyMenuBar.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		8E7BFE4E1311488E45ACA06D8CA5FDD7 /* Pods-SwiftyMenuBar_Example */ = {
@@ -322,25 +373,27 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		C99F98A5522FFD208F0EFCF96A35406C /* FontAwesome.swift */ = {
+		AF7F45B48C346F3440C680D06095149F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB52F40D458EA130E5399130F64368DB /* Enum.swift */,
-				212708CD13E999CE921CF0F4159BAF13 /* FontAwesome.swift */,
-				E1B3E9E2BD61D74A6B939F512FD6EC58 /* FontAwesomeBarButtonItem.swift */,
-				C081A89DEF62C25996CBA497CAE86F77 /* FontAwesomeExtension.swift */,
-				C8DD6C3C988B717D0F51D3C367932F56 /* FontAwesomeImageRepresentable.swift */,
-				F5BBE9475E603550789CD4EDB306A821 /* FontAwesomeImageView.swift */,
-				1E2B228BFD5DE71055A2E5CDA2784D9A /* FontAwesomeSegmentedControl.swift */,
-				61D7DD39488E5DF6A74FD2DFAAF15056 /* FontAwesomeStateRequirement.swift */,
-				08427C3E82CF7D028CA4B03B90992792 /* FontAwesomeTabBarItem.swift */,
-				3A63DB8B4787A91753D77E17BF34C9DA /* FontAwesomeTextRepresentable.swift */,
-				FFD85806CE6463C73FE78008CCFDA777 /* FontAwesomeView.swift */,
-				64F84B61BA254C56B02E9C051E6D8C13 /* Resources */,
-				0AC9DC550F3196F18CE7148F724DDC24 /* Support Files */,
+				3DA4F5DC4EB6E9DF6B4859D27EF8C9F5 /* FontAwesome.swift.bundle */,
+				28A3CCFDC77829170B0B12EB9E3391CF /* FontAwesome_swift.framework */,
+				7E6869F153D7CB9C1B22DAF7252FF3E4 /* Pastel.framework */,
+				E2C83BB9A163BFEBC10DB12B01434FF7 /* Pods_SwiftyMenuBar_Example.framework */,
+				85C5B3E47B356E5D98F88F547913AEEE /* Pods_SwiftyMenuBar_Tests.framework */,
+				FAFCD68316F7F66C5CBBC77C8534B422 /* SwiftyMenuBar.framework */,
 			);
-			name = FontAwesome.swift;
-			path = FontAwesome.swift;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C48EF5FC276C819427D95EAF30960023 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				720991C3A13C8548F801201FC551BE04 /* Font Awesome 5 Brands-Regular-400.otf */,
+				6C72939D6F54A59CB9C0DB5CA45C2071 /* Font Awesome 5 Free-Regular-400.otf */,
+				E19B9F48271A962C4B46DA5F039489B8 /* Font Awesome 5 Free-Solid-900.otf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		CE60297685E437BAFDBCDE569BEEA50B /* SwiftyMenuBar */ = {
@@ -364,10 +417,19 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				A5E95F7ED8BC442BEEF369B5D5EEE40D /* Development Pods */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
-				4E2BFE0FC672FCA7CA36B1142D3875D7 /* Pods */,
-				7F2A77F35EDC92B30F96A7E247D06C2F /* Products */,
+				E6AAC40B12C1D43F1256AF2AEF50F6E3 /* Pods */,
+				AF7F45B48C346F3440C680D06095149F /* Products */,
 				4261E567B7692DC5D9EF0D5C6F6F68AD /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		E6AAC40B12C1D43F1256AF2AEF50F6E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				355B89161DA616784AE2B1C9557E4E0F /* FontAwesome.swift */,
+				590A3C85B63C01A8C66F34F9ACBAD858 /* Pastel */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,6 +443,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7A2B56E1AD9A96A61E6BB85A5B776264 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9CE7F3454703FA3520682259AEDBEE /* Pods-SwiftyMenuBar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		950D40DA62DAFBA4B13BCC1791073E33 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -389,11 +459,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4A55BA4E3D0BDE89999AA78D17089CA /* Headers */ = {
+		C60A019DF9962A957DDF5E20FEB399E3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6B833D22B271D016A8AE19C8D10584D /* Pods-SwiftyMenuBar_Example-umbrella.h in Headers */,
+				67F3D3F39D5D25B7E3C3A1C32F22EA39 /* Pastel-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,22 +498,41 @@
 		};
 		20EFCC6478FE9D7C213B6179AAB62CAB /* Pods-SwiftyMenuBar_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33FC5109777D244976345CC0460B45AB /* Build configuration list for PBXNativeTarget "Pods-SwiftyMenuBar_Example" */;
+			buildConfigurationList = 5AF0F8DC28AFFCA1AD1C54E03B8DABC5 /* Build configuration list for PBXNativeTarget "Pods-SwiftyMenuBar_Example" */;
 			buildPhases = (
-				A4A55BA4E3D0BDE89999AA78D17089CA /* Headers */,
-				D5B39C128352B9BCF2DB83CE00B28A8B /* Sources */,
-				CAFD2260C22509004C9CF8145562704B /* Frameworks */,
-				12402824644E3D1DF3412464EEEED948 /* Resources */,
+				7A2B56E1AD9A96A61E6BB85A5B776264 /* Headers */,
+				0DAB8EFD1495C0CFE56A053761176326 /* Sources */,
+				C6BCEE876BC898D2498CD59B8A323782 /* Frameworks */,
+				A7ECEA7C7A3187770985F82711031D00 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				143F68DAADF1A2282D92A48979A48528 /* PBXTargetDependency */,
-				52984BFE17D46367C9533F46860988BC /* PBXTargetDependency */,
+				858AA18A3DCC3256B2FF2B9ABDD7C584 /* PBXTargetDependency */,
+				A19149012136388BAD6C776850A2238A /* PBXTargetDependency */,
+				5A6EBADA046B1770331873DEF7D441C3 /* PBXTargetDependency */,
 			);
 			name = "Pods-SwiftyMenuBar_Example";
 			productName = "Pods-SwiftyMenuBar_Example";
 			productReference = E2C83BB9A163BFEBC10DB12B01434FF7 /* Pods_SwiftyMenuBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		223ACB2993ED61193B95A52611ED34E7 /* Pastel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C50A4A5CEA57821BA3CD911B290D419 /* Build configuration list for PBXNativeTarget "Pastel" */;
+			buildPhases = (
+				C60A019DF9962A957DDF5E20FEB399E3 /* Headers */,
+				D5A4C040EDB49FEECE02D74495641FC7 /* Sources */,
+				633916D43C1FED89997608449F54C7EC /* Frameworks */,
+				3360140E99CC2CA2AD74233DDC25739E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pastel;
+			productName = Pastel;
+			productReference = 7E6869F153D7CB9C1B22DAF7252FF3E4 /* Pastel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		33866F7B7F789241C1063B1068CCA857 /* Pods-SwiftyMenuBar_Tests */ = {
@@ -518,12 +607,13 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 7F2A77F35EDC92B30F96A7E247D06C2F /* Products */;
+			productRefGroup = AF7F45B48C346F3440C680D06095149F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				BB240150692F32EC312F3CF346C8B9D1 /* FontAwesome.swift */,
 				4DC20DD2E50259D674257304EC016C93 /* FontAwesome.swift-FontAwesome.swift */,
+				223ACB2993ED61193B95A52611ED34E7 /* Pastel */,
 				20EFCC6478FE9D7C213B6179AAB62CAB /* Pods-SwiftyMenuBar_Example */,
 				33866F7B7F789241C1063B1068CCA857 /* Pods-SwiftyMenuBar_Tests */,
 				1238B9DB06D12A06466D349CF61BAED5 /* SwiftyMenuBar */,
@@ -532,7 +622,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		12402824644E3D1DF3412464EEEED948 /* Resources */ = {
+		3360140E99CC2CA2AD74233DDC25739E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -556,6 +646,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7ECEA7C7A3187770985F82711031D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F52563DCA421223A52AE4409F4B48B9F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -574,6 +671,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0DAB8EFD1495C0CFE56A053761176326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56FD97342C9886EE164EEFD6C9D4EA52 /* Pods-SwiftyMenuBar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4945D63C4744C9B5D95FED5606997A60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -621,23 +726,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5B39C128352B9BCF2DB83CE00B28A8B /* Sources */ = {
+		D5A4C040EDB49FEECE02D74495641FC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00D35E662B05ACB764897A5E2EEA213F /* Pods-SwiftyMenuBar_Example-dummy.m in Sources */,
+				B9B8D20601FF222DA61DFBEA646730BA /* Pastel-dummy.m in Sources */,
+				A86D3DB0B67FF29709A36E54A00B12E0 /* PastelGradient.swift in Sources */,
+				C6BFCFB2721D2029FD9184F09F7830F4 /* PastelLabel.swift in Sources */,
+				9E5784B12FCB5B512CF072F1B05AF075 /* PastelPoint.swift in Sources */,
+				5F46B77615FFBDE0CFD77B8A6FEA646C /* PastelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		143F68DAADF1A2282D92A48979A48528 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FontAwesome.swift;
-			target = BB240150692F32EC312F3CF346C8B9D1 /* FontAwesome.swift */;
-			targetProxy = 422BA0CAE846B22FC5BB73952227267D /* PBXContainerItemProxy */;
-		};
 		161A99F7D7492A785CA2173E2A393A79 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SwiftyMenuBar_Example";
@@ -650,18 +753,62 @@
 			target = 4DC20DD2E50259D674257304EC016C93 /* FontAwesome.swift-FontAwesome.swift */;
 			targetProxy = D06B65A6786DC2E10084C7B8E08BEF0B /* PBXContainerItemProxy */;
 		};
-		52984BFE17D46367C9533F46860988BC /* PBXTargetDependency */ = {
+		5A6EBADA046B1770331873DEF7D441C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyMenuBar;
 			target = 1238B9DB06D12A06466D349CF61BAED5 /* SwiftyMenuBar */;
-			targetProxy = 6ED5CF5128859C56D67825D42C9E21E3 /* PBXContainerItemProxy */;
+			targetProxy = 514704678823E4F36C4E3CBD5B39E134 /* PBXContainerItemProxy */;
+		};
+		858AA18A3DCC3256B2FF2B9ABDD7C584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FontAwesome.swift;
+			target = BB240150692F32EC312F3CF346C8B9D1 /* FontAwesome.swift */;
+			targetProxy = 531A3B926CA32AED0D42E02F985BFBC0 /* PBXContainerItemProxy */;
+		};
+		A19149012136388BAD6C776850A2238A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pastel;
+			target = 223ACB2993ED61193B95A52611ED34E7 /* Pastel */;
+			targetProxy = D3A07BCD06E6BDC380D51AD7A4BA2A0F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		02D9E94E3A1B1CB989FFDDF65AA094A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8381853BC2505C1A2E8732D8346FC4C /* Pastel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Pastel/Pastel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pastel/Pastel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pastel/Pastel.modulemap";
+				PRODUCT_MODULE_NAME = Pastel;
+				PRODUCT_NAME = Pastel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		0D55D58CB3BF58392F364A398DA89209 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4D16BBBFB2DFBBF0ECDE4AE6A1A93AE /* FontAwesome.swift.xcconfig */;
+			baseConfigurationReference = 304CC77AC9077C4C37E9B4EA92D60C90 /* FontAwesome.swift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
@@ -677,7 +824,7 @@
 		};
 		18C439D3DCD99C75C93729A408180027 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4D16BBBFB2DFBBF0ECDE4AE6A1A93AE /* FontAwesome.swift.xcconfig */;
+			baseConfigurationReference = 304CC77AC9077C4C37E9B4EA92D60C90 /* FontAwesome.swift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -770,40 +917,6 @@
 			};
 			name = Debug;
 		};
-		4AE9451C073915E60B1665AC986495C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95D35A32B2AD0CF5377627EDFF707E3A /* Pods-SwiftyMenuBar_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyMenuBar_Example/Pods-SwiftyMenuBar_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyMenuBar_Example/Pods-SwiftyMenuBar_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		58961594C72B9BA4B6C89E585816CEED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1FB6F92E5B1EBD0DF5803B1C59629C7D /* SwiftyMenuBar.xcconfig */;
@@ -836,6 +949,37 @@
 			};
 			name = Debug;
 		};
+		60F731DF48862C993F703DD3290E342F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8381853BC2505C1A2E8732D8346FC4C /* Pastel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Pastel/Pastel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pastel/Pastel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pastel/Pastel.modulemap";
+				PRODUCT_MODULE_NAME = Pastel;
+				PRODUCT_NAME = Pastel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		632E7C8BA6FAF5FDF037196BBB35D371 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E13CD5E19D8D425D929C4B0CD58E32C7 /* Pods-SwiftyMenuBar_Tests.release.xcconfig */;
@@ -857,6 +1001,41 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyMenuBar_Tests/Pods-SwiftyMenuBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B18F8029EC49BB9A488089F071B0804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EED8A597AD819CCB8970F991C234C268 /* Pods-SwiftyMenuBar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyMenuBar_Example/Pods-SwiftyMenuBar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyMenuBar_Example/Pods-SwiftyMenuBar_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -965,6 +1144,40 @@
 			};
 			name = Release;
 		};
+		CB58D23EA2D61E909233E3A458299F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D35A32B2AD0CF5377627EDFF707E3A /* Pods-SwiftyMenuBar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyMenuBar_Example/Pods-SwiftyMenuBar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyMenuBar_Example/Pods-SwiftyMenuBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D8130AD3970A60864DCD551099739BC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1FB6F92E5B1EBD0DF5803B1C59629C7D /* SwiftyMenuBar.xcconfig */;
@@ -1000,7 +1213,7 @@
 		};
 		DE373C0A0C90FF7FC6D3657592A3F4A3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4D16BBBFB2DFBBF0ECDE4AE6A1A93AE /* FontAwesome.swift.xcconfig */;
+			baseConfigurationReference = 304CC77AC9077C4C37E9B4EA92D60C90 /* FontAwesome.swift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
@@ -1016,7 +1229,7 @@
 		};
 		EBDAE320075FB55FE0188D605F793C28 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4D16BBBFB2DFBBF0ECDE4AE6A1A93AE /* FontAwesome.swift.xcconfig */;
+			baseConfigurationReference = 304CC77AC9077C4C37E9B4EA92D60C90 /* FontAwesome.swift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1046,41 +1259,6 @@
 			};
 			name = Release;
 		};
-		FC0D4E4BBA77A91E6C9940384688E67B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EED8A597AD819CCB8970F991C234C268 /* Pods-SwiftyMenuBar_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyMenuBar_Example/Pods-SwiftyMenuBar_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyMenuBar_Example/Pods-SwiftyMenuBar_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1089,15 +1267,6 @@
 			buildConfigurations = (
 				0D55D58CB3BF58392F364A398DA89209 /* Debug */,
 				DE373C0A0C90FF7FC6D3657592A3F4A3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		33FC5109777D244976345CC0460B45AB /* Build configuration list for PBXNativeTarget "Pods-SwiftyMenuBar_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4AE9451C073915E60B1665AC986495C7 /* Debug */,
-				FC0D4E4BBA77A91E6C9940384688E67B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1125,6 +1294,24 @@
 			buildConfigurations = (
 				58961594C72B9BA4B6C89E585816CEED /* Debug */,
 				D8130AD3970A60864DCD551099739BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AF0F8DC28AFFCA1AD1C54E03B8DABC5 /* Build configuration list for PBXNativeTarget "Pods-SwiftyMenuBar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB58D23EA2D61E909233E3A458299F13 /* Debug */,
+				7B18F8029EC49BB9A488089F071B0804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C50A4A5CEA57821BA3CD911B290D419 /* Build configuration list for PBXNativeTarget "Pastel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60F731DF48862C993F703DD3290E342F /* Debug */,
+				02D9E94E3A1B1CB989FFDDF65AA094A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -16,6 +16,8 @@
 		AB894470231704D500C7B53E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB89446E231704D500C7B53E /* LaunchScreen.xib */; };
 		AB8944732317106100C7B53E /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8944722317106100C7B53E /* UIColorExtensions.swift */; };
 		AB894477231714C400C7B53E /* NavigationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB894476231714C400C7B53E /* NavigationExample.swift */; };
+		AB89447923172FDC00C7B53E /* DynamicExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89447823172FDC00C7B53E /* DynamicExample.swift */; };
+		AB89447B23173D8000C7B53E /* GradientController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89447A23173D8000C7B53E /* GradientController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		AB89446F231704D500C7B53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AB8944722317106100C7B53E /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		AB894476231714C400C7B53E /* NavigationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationExample.swift; sourceTree = "<group>"; };
+		AB89447823172FDC00C7B53E /* DynamicExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicExample.swift; sourceTree = "<group>"; };
+		AB89447A23173D8000C7B53E /* GradientController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientController.swift; sourceTree = "<group>"; };
 		AC53ADC29505016C2B20AAED /* Pods-SwiftyMenuBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyMenuBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyMenuBar_Example/Pods-SwiftyMenuBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AC8E1B79368DF73811A91C28 /* Pods-SwiftyMenuBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyMenuBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyMenuBar_Tests/Pods-SwiftyMenuBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BF2464DA6F8E6F6BF2709D74 /* Pods_SwiftyMenuBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyMenuBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,6 +170,8 @@
 			children = (
 				607FACD71AFB9204008FA782 /* MainTabBarController.swift */,
 				AB894476231714C400C7B53E /* NavigationExample.swift */,
+				AB89447823172FDC00C7B53E /* DynamicExample.swift */,
+				AB89447A23173D8000C7B53E /* GradientController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -309,11 +315,13 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftyMenuBar_Example/Pods-SwiftyMenuBar_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/Pastel/Pastel.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyMenuBar/SwiftyMenuBar.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pastel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyMenuBar.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +361,8 @@
 				AB8944732317106100C7B53E /* UIColorExtensions.swift in Sources */,
 				607FACD81AFB9204008FA782 /* MainTabBarController.swift in Sources */,
 				AB894477231714C400C7B53E /* NavigationExample.swift in Sources */,
+				AB89447B23173D8000C7B53E /* GradientController.swift in Sources */,
+				AB89447923172FDC00C7B53E /* DynamicExample.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

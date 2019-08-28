@@ -14,7 +14,7 @@ class MainTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let tab1 = Navigation()
-        let tab2 = Navigation()
+        let tab2 = Dynamic()
         self.tabBar.isTranslucent = false
         self.tabBar.barTintColor = .white
         self.tabBar.tintColor = .lightBlue

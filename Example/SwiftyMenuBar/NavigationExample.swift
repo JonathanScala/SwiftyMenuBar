@@ -15,14 +15,16 @@ class Navigation: UIViewController {
     fileprivate var menu: MenuBarController!
     fileprivate let titles = ["Title 1", "Title 2", "Title 3", "Title 4"]
     fileprivate lazy var vcs: [UIViewController] = {
-        let vc1 = UIViewController()
-        let vc2 = UIViewController()
-        let vc3 = UIViewController()
-        let vc4 = UIViewController()
-        vc1.view.backgroundColor = .backgroundBlue
-        vc2.view.backgroundColor = .darkThemeLime
-        vc3.view.backgroundColor = .darkThemePrimary
-        vc4.view.backgroundColor = .darkThemeSurface
+        let vc1 = GradientController()
+        let vc2 = GradientController(colors: [
+            UIColor(red: 0x42/255, green: 0xE6/255, blue: 0x95/255, alpha: 1.0),
+            UIColor(red: 0x3B/255, green: 0xB2/255, blue: 0xB8/255, alpha: 1.0)])
+        let vc3 = GradientController(colors: [
+            UIColor(red: 0x17/255, green: 0xEA/255, blue: 0xD9/255, alpha: 1.0),
+            UIColor(red: 0x60/255, green: 0x78/255, blue: 0xEA/255, alpha: 1.0)])
+        let vc4 = GradientController(colors: [
+            UIColor(red: 0x5B/255, green: 0x24/255, blue: 0x7A/255, alpha: 1.0),
+            UIColor(red: 0x1B/255, green: 0xCE/255, blue: 0xDF/255, alpha: 1.0)])
         return [vc1, vc2, vc3, vc4]
     }()
     fileprivate lazy var configuration: MenuBarConfigurations = {
