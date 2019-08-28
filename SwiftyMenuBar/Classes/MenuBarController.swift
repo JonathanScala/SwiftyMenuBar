@@ -145,7 +145,7 @@ extension MenuBarController: UIScrollViewDelegate, MenuBarDelegate {
         delegate?.menuBarController?(self, didScrollFrom: viewControllers[previousIndex], destinationController: viewControllers[currentIndex])
     }
     
-    func didSelectItem(indexPath: IndexPath) {
+    public func didSelectItem(indexPath: IndexPath) {
         previousIndex = currentIndex
         currentIndex = indexPath.row
         
