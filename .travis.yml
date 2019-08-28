@@ -4,11 +4,11 @@
 
 osx_image: xcode10.3
 language: swift
-# cache: cocoapods
+cache: cocoapods
 xcode_workspace: Example/SwiftyMenuBar.xcworkspace
 xcode_scheme: SwiftyMenuBar-Example
 xcode_destination: platform=iOS Simulator,OS=12.4,name=iPhone Xs
 podfile: Example/Podfile
 before_install:
   - gem install cocoapods
-  - pod install --project-directory=Example
+  - pod install --repo-update --project-directory=Example

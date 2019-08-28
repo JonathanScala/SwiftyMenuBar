@@ -3,7 +3,7 @@ use_frameworks!
 target 'SwiftyMenuBar_Example' do
   pod 'SwiftyMenuBar', :path => '../'
   pod 'FontAwesome.swift', '~> 1.6.0'
-  pod 'Pastel', '~> 0.6.0'
+  pod 'Pastel'
 
   target 'SwiftyMenuBar_Tests' do
     inherit! :search_paths
