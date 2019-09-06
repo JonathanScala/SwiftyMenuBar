@@ -2,11 +2,11 @@
 
 [![Build Status](https://travis-ci.com/JonathanScala/SwiftyMenuBar.svg?branch=master)](https://travis-ci.com/JonathanScala/SwiftyMenuBar)
 [![Version](https://img.shields.io/cocoapods/v/SwiftyMenuBar.svg?style=flat)](https://cocoapods.org/pods/SwiftyMenuBar)
-[![License](https://img.shields.io/cocoapods/l/SwiftyMenuBar.svg?style=flat)](https://cocoapods.org/pods/SwiftyMenuBar)
+[![License](https://img.shields.io/cocoapods/l/SwiftyMenuBar.svg?style=flat)](https://github.com/JonathanScala/SwiftyMenuBar/blob/master/LICENSE?raw=true)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyMenuBar.svg?style=flat)](https://cocoapods.org/pods/SwiftyMenuBar)
 
 <p align="center">
-  <img src="./Example/images/preview.gif" alt="preview" width="300"/>
+  <img src="https://github.com/JonathanScala/SwiftyMenuBar/blob/master/Example/images/preview.gif?raw=true" alt="preview" width="300"/>
 </p>
 
 ## Getting Started
