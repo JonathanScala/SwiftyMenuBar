@@ -1,0 +1,129 @@
+{
+    "cities": [
+        {
+            "city": "Los Angeles",
+            "country": "USA",
+            "resourceName": "los-angeles"
+        },
+        {
+            "city": "New York",
+            "country": "USA",
+            "resourceName": "new-york"
+        },
+        {
+            "city": "San Francisco",
+            "country": "USA",
+            "resourceName": "San-Francisco"
+        },
+        {
+            "city": "Tokyo",
+            "country": "Japan",
+            "resourceName": "tokyo"
+        },
+        {
+            "city": "London",
+            "country": "England",
+            "resourceName": "london"
+        },
+        {
+            "city": "Napoli",
+            "country": "Italia",
+            "resourceName": "napoli"
+        },
+        {
+            "city": "Firenze",
+            "country": "Italia",
+            "resourceName": "firenze"
+        },
+        {
+            "city": "Roma",
+            "country": "Italia",
+            "resourceName": "rome"
+        },
+    ],
+    "countries": [
+        {
+            "country": "Italia",
+            "resourceName": "country-italia"
+        },
+        {
+            "country": "Japan",
+            "resourceName": "tokyo"
+        },
+        {
+            "country": "USA",
+            "resourceName": "new-york"
+        },
+        {
+            "country": "France",
+            "resourceName": "country-france"
+        },
+        {
+            "country": "Canada",
+            "resourceName": "country-canada"
+        },
+        {
+            "country": "Holland",
+            "resourceName": "country-holland"
+        },
+        {
+            "country": "Germany",
+            "resourceName": "country-germany"
+        },
+        {
+            "country": "Brazil",
+            "resourceName": "country-brazil"
+        },
+    ],
+    "galleryImages": [
+        {
+            "resourceName": "Tutorial-1"
+        },
+        {
+            "resourceName": "Tutorial-2"
+        },
+        {
+            "resourceName": "Tutorial-3"
+        },
+        {
+            "resourceName": "Tutorial-4"
+        },
+        {
+            "resourceName": "Tutorial-5"
+        },
+        {
+            "resourceName": "Tutorial-6"
+        },
+        {
+            "resourceName": "Tutorial-7"
+        },
+        {
+            "resourceName": "Tutorial-8"
+        },
+        {
+            "resourceName": "Tutorial-9"
+        },
+        {
+            "resourceName": "Tutorial-10"
+        },
+        {
+            "resourceName": "Tutorial-11"
+        },
+        {
+            "resourceName": "Tutorial-12"
+        },
+        {
+            "resourceName": "Tutorial-13"
+        },
+        {
+            "resourceName": "Tutorial-14"
+        },
+        {
+            "resourceName": "Tutorial-15"
+        },
+        {
+            "resourceName": "Tutorial-16"
+        },
+    ]
+    
+}
