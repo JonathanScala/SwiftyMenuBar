@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/SwiftyMenuBar.svg?style=flat)](https://cocoapods.org/pods/SwiftyMenuBar)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyMenuBar.svg?style=flat)](https://cocoapods.org/pods/SwiftyMenuBar)
 
+<p align="center">
+  <img src="./Example/images/preview.gif" alt="preview" width="300"/>
+</p>
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
