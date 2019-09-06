@@ -9,6 +9,57 @@
   <img src="./Example/images/preview.gif" alt="preview" width="300"/>
 </p>
 
+## Getting Started
+### MenubarController
+```swift
+let titles = ["T1", "T2", "T3", "T4"]
+let vcs: [UIViewController] = [
+    UIViewController(),
+    UIViewController(),
+    UIViewController(),
+    UIViewController()
+]
+let menu: MenuBarController = MenuBarController(viewControllers: vcs, titles: titles)
+addChild(menu)
+view.addSubview(menu.view)
+```
+
+### MenuBarConfigurations
+```swift
+let config = MenuBarConfigurations()
+config.itemsPerPage = 3.5
+config.font = UIFont.systemFont(ofSize: 15, weight: .bold)
+config.barColor = .white
+config.textColor = .unselectedGray
+config.selectedColor = .black
+config.staticSize = true
+config.sliderColor = .black
+menu.configuration = config
+```
+
+### MenuBar
+```swift
+let conf = MenuBarConfigurations()
+conf.itemsPerPage = 3.5
+conf.font = UIFont.systemFont(ofSize: 22, weight: .bold)
+conf.barColor = .clear
+conf.textColor = .white
+conf.selectedColor = .white
+conf.staticSize = false
+conf.sliderColor = .clear
+let menuBar: MenuBar = MenuBar(
+    titles: [
+        "Today",
+        "Sept 7",
+        "Sept 8",
+        "Sept 9",
+        "Sept 10"
+    ],
+    configuration: conf
+)
+view.addSubview(menuBar)
+```
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
