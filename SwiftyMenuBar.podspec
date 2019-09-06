@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftyMenuBar'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A neat UI lib for using top menu bars'
   s.description      = <<-DESC
                         SwiftyMenuBar is a neat little library for easily adding top menu bars to your view.
