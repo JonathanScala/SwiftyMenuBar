@@ -1,7 +1,3 @@
-# references:
-# * https://www.objc.io/issues/6-build-tools/travis-ci/
-# * https://github.com/supermarin/xcpretty#usage
-
 osx_image: xcode11.3
 language: swift
 cache: cocoapods
@@ -10,13 +6,13 @@ env:
   global:
     - WORKSPACE=Example/SwiftyMenuBar.xcworkspace
     - SCHEME_IOS=SwiftyMenuBar-Example
-    - IOS_SDK=iphonesimulator
+    - IOS_SDK=iphonesimulator13.2
 
   matrix:
-    - DESTINATION="OS=13.3,name=iPhone 11" SDK="$IOS_SDK" SCHEME="$SCHEME_IOS" BUILD_EXAMPLE="YES" POD_LINT="YES"
-    - DESTINATION="OS=13.0,name=iPhone 11" SDK="$IOS_SDK" SCHEME="$SCHEME_IOS" BUILD_EXAMPLE="YES" POD_LINT="YES"
-    - DESTINATION="OS=12.0,name=iPhone 11" SDK="$IOS_SDK" SCHEME="$SCHEME_IOS" BUILD_EXAMPLE="YES" POD_LINT="YES"
-    - DESTINATION="OS=11.0,name=iPhone 11" SDK="$IOS_SDK" SCHEME="$SCHEME_IOS" BUILD_EXAMPLE="YES" POD_LINT="YES"
+    - DESTINATION="OS=13.3,name=iPhone 11 Pro" SDK="$IOS_SDK" SCHEME="$SCHEME_IOS" BUILD_EXAMPLE="YES" POD_LINT="YES"
+    - DESTINATION="OS=13.0,name=iPhone 11 Pro" SDK="$IOS_SDK" SCHEME="$SCHEME_IOS" BUILD_EXAMPLE="YES" POD_LINT="YES"
+    - DESTINATION="OS=12.0,name=iPhone 11 Pro" SDK="$IOS_SDK" SCHEME="$SCHEME_IOS" BUILD_EXAMPLE="YES" POD_LINT="YES"
+    - DESTINATION="OS=11.0,name=iPhone 11 Pro" SDK="$IOS_SDK" SCHEME="$SCHEME_IOS" BUILD_EXAMPLE="YES" POD_LINT="YES"
 
     - DESTINATION="OS=13.3,name=iPhone 8 Plus" SDK="$IOS_SDK" SCHEME="$SCHEME_IOS" BUILD_EXAMPLE="YES" POD_LINT="YES"
     - DESTINATION="OS=13.0,name=iPhone 8 Plus" SDK="$IOS_SDK" SCHEME="$SCHEME_IOS" BUILD_EXAMPLE="YES" POD_LINT="YES"
