@@ -5,10 +5,28 @@
 osx_image: xcode10.3
 language: swift
 cache: cocoapods
-xcode_workspace: Example/SwiftyMenuBar.xcworkspace
-xcode_scheme: SwiftyMenuBar-Example
-xcode_destination: platform=iOS Simulator,OS=12.4,name=iPhone Xs
-podfile: Example/Podfile
-before_install:
-  - gem install cocoapods
-  - pod install --repo-update --project-directory=Example
+
+env:
+  global:
+    - WORKSPACE=Example/SwiftyMenuBar.xcworkspace
+    - SCHEME_IOS=SwiftyMenuBar-Example
+    - IOS_SDK=iphonesimulator
+
+  matrix:
+    - DESTINATION="OS=13.3,name=iPhone 11" SDK="$IOS_SDK" SCHEME="$SCHEME_IOS" BUILD_EXAMPLE="YES" POD_LINT="YES"
+    - DESTINATION="OS=13.0,name=iPhone 11" SDK="$IOS_SDK" SCHEME="$SCHEME_IOS" BUILD_EXAMPLE="YES" POD_LINT="YES"
+    - DESTINATION="OS=12.0,name=iPhone 11" SDK="$IOS_SDK" SCHEME="$SCHEME_IOS" BUILD_EXAMPLE="YES" POD_LINT="YES"
+    - DESTINATION="OS=11.0,name=iPhone 11" SDK="$IOS_SDK" SCHEME="$SCHEME_IOS" BUILD_EXAMPLE="YES" POD_LINT="YES"
+
+    - DESTINATION="OS=13.3,name=iPhone 8 Plus" SDK="$IOS_SDK" SCHEME="$SCHEME_IOS" BUILD_EXAMPLE="YES" POD_LINT="YES"
+    - DESTINATION="OS=13.0,name=iPhone 8 Plus" SDK="$IOS_SDK" SCHEME="$SCHEME_IOS" BUILD_EXAMPLE="YES" POD_LINT="YES"
+    - DESTINATION="OS=12.0,name=iPhone 8 Plus" SDK="$IOS_SDK" SCHEME="$SCHEME_IOS" BUILD_EXAMPLE="YES" POD_LINT="YES"
+    - DESTINATION="OS=11.0,name=iPhone 8 Plus" SDK="$IOS_SDK" SCHEME="$SCHEME_IOS" BUILD_EXAMPLE="YES" POD_LINT="YES"
+
+script:
+  - set -o pipefail
+  - pod install --project-directory=Example
+  - if [ $POD_LINT == "YES" ]; then
+      pod lib lint;
+    fi
+  - xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" ONLY_ACTIVE_ARCH=YES clean test | xcpretty -c
